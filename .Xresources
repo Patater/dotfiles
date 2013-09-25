@@ -1,0 +1,4 @@
+! This is a file to set personal X settings.
+! xterm*faceName: -*-monaco-*-*-*-*-*-*-*-*-*-59-*-*
+xterm*utf8: 2
+!Xcursor.theme: Mac_OSX_Aqua
