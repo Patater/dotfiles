@@ -4,11 +4,17 @@ set tw=79
 " set isk+=_,$,@,%,#,- " none of these should be word dividers, so make them
 " not  be
 
+" Default to unix, and support detection of dos and mac file formats
+set ffs=unix,dos,mac
+
 " NI Specific
-" set sts=3 sw=3 ts=3 et
+" set sts=3 sw=3 ts=3
 
 " Linux Kernel Specific
 set noet sts=8 sw=8 ts=8
+
+" Google Style
+" set sts=2 sw=2 ts=2
 
 syntax on
 colorscheme desert
@@ -41,11 +47,11 @@ autocmd InsertEnter * call HighlightTooLongLines(0)
 autocmd InsertLeave * call HighlightTooLongLines(1)
 
 " Tabs will be listed
-set list listchars=tab:»·
+set list listchars=tab:Â»Â·
 
 augroup makefile
     au!
-    au FileType make setlocal noet sts=0 ts=8 sw=8
+    au FileType make,automake setlocal noet sts=0 ts=8 sw=8
 augroup END
 
 augroup gitcommit
@@ -57,13 +63,16 @@ if has("gui_running")
     set guioptions=egrLt
     set guioptions=-s
     " Windows Specific
+    " set guifont=Monaco:h8:cANSI
     " set guifont=Lucida_Console:h9:cANSI
+    " Mac Specific
+    " set guifont=Menlo:h14
 else
     set bg=dark
-    if &term == "xterm" || &term == "xterm-color" || &term == "screen-256color-bce"
-        set t_Co=256
-        colorscheme desert256
-    endif
+    " if &term == "xterm" || &term == "xterm-color" || &term == "xterm-256color" || &term == "screen-256color-bce" || &term == "screen-256color"
+    "     set t_Co=256
+    "     colorscheme desert256
+    " endif
 endif
 
 set printoptions=paper:letter
@@ -78,3 +87,6 @@ fun! <SID>StripTrailingWhitespaces()
     " Restore the cursor location
     call cursor(l, c)
 endfun
+
+" gc ("garbage collect") strips all trailing whitespace
+nmap gc :%s/\s\+$//<CR>
