@@ -69,10 +69,10 @@ if has("gui_running")
     " set guifont=Menlo:h14
 else
     set bg=dark
-    " if &term == "xterm" || &term == "xterm-color" || &term == "xterm-256color" || &term == "screen-256color-bce" || &term == "screen-256color"
-    "     set t_Co=256
-    "     colorscheme desert256
-    " endif
+     if &term == "xterm" || &term == "xterm-color" || &term == "xterm-256color" || &term == "screen-256color-bce" || &term == "screen-256color"
+         set t_Co=256
+         colorscheme desert256
+     endif
 endif
 
 set printoptions=paper:letter
