@@ -33,9 +33,8 @@ stippled_borders 2
 update_interval 1
 uppercase no
 use_spacer none
-use_xft yes
-xftalpha 0.8
-xftfont Monaco10px
+use_xft no
+font fixed
 
 TEXT
 #${texeci 3600 feh --bg-tile ~/Pictures/blue-bg-tile.png}
