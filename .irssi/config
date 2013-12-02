@@ -76,6 +76,14 @@ servers = (
     use_ssl = "yes";
     ssl_verify = "no";
     autoconnect = "yes";
+  },
+  {
+    address = "127.0.0.1";
+    chatnet = "local-bitlbee";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "no";
   }
 );
 
@@ -148,6 +156,7 @@ chatnets = {
   "patater-efnet" = { type = "IRC"; };
   "patater-freenode" = { type = "IRC"; };
   "patater-oftc" = { type = "IRC"; };
+  "local-bitlbee" = { type = "IRC"; };
 };
 
 channels = (
