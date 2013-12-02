@@ -84,6 +84,14 @@ servers = (
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "no";
+  },
+  {
+    address = "niirc.amer.corp.natinst.com";
+    chatnet = "niirc";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "no";
   }
 );
 
@@ -157,11 +165,19 @@ chatnets = {
   "patater-freenode" = { type = "IRC"; };
   "patater-oftc" = { type = "IRC"; };
   "local-bitlbee" = { type = "IRC"; };
+  niirc = {
+    type = "IRC";
+    nick = "jamero";
+    username = "jamero";
+    realname = "Jaeden Amero";
+  };
 };
 
 channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
-  { name = "silc"; chatnet = "silc"; autojoin = "No"; }
+  { name = "silc"; chatnet = "silc"; autojoin = "No"; },
+  { name = "#linux"; chatnet = "niirc"; autojoin = "yes"; },
+  { name = "#zynq"; chatnet = "niirc"; autojoin = "yes"; }
 );
 
 aliases = {
