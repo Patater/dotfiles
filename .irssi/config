@@ -348,4 +348,5 @@ settings = {
     nick = "Patater";
   };
   "fe-text" = { actlist_sort = "refnum"; };
+  "fe-common/core" = { term_charset = "utf-8"; };
 };
