@@ -2,7 +2,7 @@
 	email = jaeden@patater.com
 	name = Jaeden
 [push]
-	default = simple
+	default = upstream
 [color]
 	ui = auto
 	branch = auto
