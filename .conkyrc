@@ -39,6 +39,7 @@ font fixed
 TEXT
 #${texeci 3600 feh --bg-tile ~/Pictures/blue-bg-tile.png}
 ${color #0077ff}$nodename     ${alignc}$sysname $kernel ${alignr}$color${time %F %H:%M %Z}
+${alignr}$color${tztime Europe/Berlin %F %H:%M %Z}
 
 ${color #0077ff}Uptime:$color $uptime ${color #0077ff} Load:$color $loadavg
 ${color #0077ff}CPU:$color ${cpu}% ${color #0077ff}${cpubar 5,85}   ${color #0077ff}Disk I/O: $color${diskio}
