@@ -56,7 +56,7 @@ augroup END
 
 augroup gitcommit
     au!
-    au FileType gitcommit setlocal tw=70
+    au FileType gitcommit setlocal tw=72
 augroup END
 
 if has("gui_running")
