@@ -38,9 +38,10 @@ font fixed
 
 TEXT
 #${texeci 3600 feh --bg-tile ~/Pictures/blue-bg-tile.png}
-${color #0077ff}$nodename     ${alignc}$sysname $kernel ${alignr}$color${time %F %H:%M %Z}
-${alignr}$color${tztime Europe/Berlin %F %H:%M %Z}
-${alignr}$color${tztime Japan %F %H:%M %Z}
+#${color #0077ff}$nodename     ${alignc}$sysname $kernel
+${color #0077ff}Austin: $color${execi 3600 weather bergstrom | awk '/Temperature/ {print $2, $3, $4, $5}'}${alignr}$color${time %F %H:%M %Z}
+${color #0077ff}Berlin: $color${execi 3600 weather tegel | awk '/Temperature/ {print $2, $3, $4, $5}'}${alignr}$color${tztime Europe/Berlin %F %H:%M %Z}
+${color #0077ff}Osaka:  $color${execi 3600 weather osaka | awk '/Temperature/ {print $2, $3, $4, $5}'}${alignr}$color${tztime Japan %F %H:%M %Z}
 
 ${color #0077ff}Uptime:$color $uptime ${color #0077ff} Load:$color $loadavg
 ${color #0077ff}CPU:$color ${cpu}% ${color #0077ff}${cpubar 5,85}   ${color #0077ff}Disk I/O: $color${diskio}
