@@ -253,6 +253,8 @@ globalkeys = awful.util.table.join(
                   awful.util.eval, nil,
                   awful.util.getdir("cache") .. "/history_eval")
               end)
+    awful.key({}, "F10", raise_conky, lower_conky)
+    -- awful.key({}, "Pause", toggle_conky)
 )
 
 clientkeys = awful.util.table.join(
@@ -342,6 +344,14 @@ awful.rules.rules = {
     -- Set Firefox to always map on tags number 2 of screen 1.
     -- { rule = { class = "Firefox" },
     --   properties = { tag = tags[1][2] } },
+    { rule = { class = "Conky" },
+      properties = {
+          floating = true,
+          sticky = true,
+          ontop = false,
+          focusable = false,
+          size_hints = {"program_position", "program_size"}
+      } }
 }
 -- }}}
 
@@ -375,3 +385,49 @@ end)
 client.add_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.add_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
+
+function get_conky()
+    local clients = client.get()
+    local conky = nil
+    local i = 1
+    while clients[i]
+    do
+        if clients[i].class == "Conky"
+        then
+            conky = clients[i]
+        end
+        i = i + 1
+    end
+    return conky
+end
+function raise_conky()
+    local conky = get_conky()
+    if conky
+    then
+        conky.ontop = true
+    end
+end
+function lower_conky()
+    local conky = get_conky()
+    if conky
+    then
+        conky.ontop = false
+    end
+end
+function toggle_conky()
+    local conky = get_conky()
+    if conky
+    then
+        if conky.ontop
+        then
+            conky.ontop = false
+        else
+            conky.ontop = true
+        end
+    end
+end
+
+-- Reserve space for Conky
+--mystatusbar = awful.wibox(
+--  { position = "right", screen = 1, ontop = false, width = 330, height = 1200 }
+--)
