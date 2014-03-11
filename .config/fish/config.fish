@@ -10,3 +10,5 @@ if status --is-interactive;
   keychain --quiet --nogui ~/.ssh/id_rsa
   [ -e $HOME/.keychain/$HOSTNAME-fish ]; and . $HOME/.keychain/$HOSTNAME-fish
 end
+
+alias mv="mv -i"
