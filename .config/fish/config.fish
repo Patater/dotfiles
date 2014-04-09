@@ -12,3 +12,4 @@ if status --is-interactive;
 end
 
 alias mv="mv -i"
+alias tmux="tmux -2"
