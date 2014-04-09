@@ -7,5 +7,5 @@ xsetroot -cursor_name left_ptr
 /usr/bin/xscreensaver -no-splash &
 conky
 
-/usr/local/bin/evilwm -fn fixed -term "xterm -u8 -bg black -fg white -fs 16" &
-exec xterm
+/usr/local/bin/evilwm -fn fixed -term "uxterm -u8 -bg black -fg white" &
+exec uxterm
