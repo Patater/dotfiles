@@ -1,6 +1,7 @@
 term screen-256color
 
 encoding UTF-8
+defutf8 on
 
 vbell off
 startup_message off
