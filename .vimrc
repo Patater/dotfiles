@@ -9,7 +9,7 @@ set showbreak=
 " set showbreak=--->
 
 " set isk+=_,$,@,%,#,- " none of these should be word dividers, so make them
-" not  be
+" not be
 
 " Default to unix, and support detection of dos and mac file formats
 set ffs=unix,dos,mac
