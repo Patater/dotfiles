@@ -1,6 +1,13 @@
 set ai et sts=4 sw=4 ts=4 nocompatible bs=2 bg=dark hlsearch incsearch
-set showbreak=---> ruler visualbell noerrorbells t_vb= nojoinspaces
+set ruler visualbell noerrorbells t_vb= nojoinspaces
 set tw=79
+
+" Optionally show line breaks. We don't really need to show these anymore, now
+" that we are highlighting too long lines. The highlight color shows us that
+" the line is too long (without making copy paste suck).
+set showbreak=
+" set showbreak=--->
+
 " set isk+=_,$,@,%,#,- " none of these should be word dividers, so make them
 " not  be
 
