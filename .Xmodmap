@@ -1,0 +1,4 @@
+! Swap F1 and escape
+! Useful on some tiny keyboards
+keysym Escape = F1
+keysym F1 = Escape
