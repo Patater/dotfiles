@@ -15,9 +15,9 @@ defbce on    # use current bg color for erased chars
 
 
 
-hardstatus off
-hardstatus alwayslastline
-hardstatus string '%{= dW}%-Lw%{= dY}%50> %n*%f %t%{= dW}%+Lw%< %{= dW}%-= %Y-%m-%d %c %1`%{-}'
+#hardstatus off
+#hardstatus alwayslastline
+#hardstatus string '%{= dW}%-Lw%{= dY}%50> %n*%f %t%{= dW}%+Lw%< %{= dW}%-= %Y-%m-%d %c %1`%{-}'
 #hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W} %c %{g}]'
 #caption always "%{= kw}%?%-Lw%?%{Kw}%n*%f %t%?(%u)%?%{kw}%?%+Lw%? %=%{= dw} %H "
 
