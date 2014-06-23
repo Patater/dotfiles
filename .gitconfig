@@ -15,3 +15,5 @@
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
 	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	g = grep --break --heading --line-number
+[merge]
+	conflictstyle = diff3
