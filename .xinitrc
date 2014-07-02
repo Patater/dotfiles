@@ -6,6 +6,9 @@ xsetroot -cursor_name left_ptr
 
 /usr/bin/xscreensaver -no-splash &
 conky
+iceweasel &
+icedove &
+chromium &
 
 /usr/local/bin/evilwm -fn fixed -term "uxterm -u8 -bg black -fg white" &
 exec uxterm
