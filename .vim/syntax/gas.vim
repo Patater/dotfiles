@@ -40,7 +40,7 @@ syn keyword gasDirective	.vtable_entry .vtable_inherit .warning .weak .weakref
 syn keyword gasDirectiveStore	.byte .hword .word .int .long .double .short .float
 syn keyword gasDirectiveStore	.string .string8 .string16 .ascii .asciz .comm
 
-syn keyword gasDirectiveMacro	.altmacro .macro .noaltmacro .end .func .endfunc
+syn keyword gasDirectiveMacro	.altmacro .macro .noaltmacro .end .endm .func .endfunc
 
 " i*86 directives
 syn keyword gasDirectiveX86	.att_syntax .intel_syntax .att_mnemonic .intel_mnemonic .lcomm
