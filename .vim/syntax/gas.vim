@@ -36,6 +36,7 @@ syn keyword gasDirective	.reloc .rept .sbttl .scl .section .set .single .size .s
 syn keyword gasDirective	.space .stabd .stabn .stabs .struct .subsection
 syn keyword gasDirective	.symver .tag .text .title .type .uleb128 .val .version
 syn keyword gasDirective	.vtable_entry .vtable_inherit .warning .weak .weakref
+syn keyword gasDirective	.code16 .code32
 
 syn keyword gasDirectiveStore	.byte .hword .word .int .long .double .short .float
 syn keyword gasDirectiveStore	.string .string8 .string16 .ascii .asciz .comm
