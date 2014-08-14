@@ -13,4 +13,5 @@ if status --is-interactive;
 end
 
 alias mv="mv -i"
+alias cp="cp -i"
 alias tmux="tmux -2"
