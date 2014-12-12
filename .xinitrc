@@ -10,5 +10,5 @@ iceweasel &
 icedove &
 chromium &
 
-/usr/local/bin/evilwm -fn fixed -term "uxterm -u8 -bg black -fg white" &
-exec uxterm
+/usr/local/bin/evilwm -fn fixed -term "uxterm -u8" &
+exec uxterm -fg gray -bg gray30
