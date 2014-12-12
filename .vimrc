@@ -76,7 +76,7 @@ if has("gui_running")
     " set guifont=Menlo:h14
 else
     set bg=dark
-     if &term == "xterm" || &term == "xterm-color" || &term == "xterm-256color" || &term == "screen-256color-bce" || &term == "screen-256color"
+     if &term == "xterm" || &term == "xterm-color" || &term == "xterm-256color" || &term == "screen-256color-bce" || &term == "screen-256color" || &term == "rxvt-unicode-256color"
          set t_Co=256
          colorscheme desert256
      endif
