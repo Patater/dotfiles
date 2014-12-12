@@ -1,4 +1,96 @@
 ! This is a file to set personal X settings.
+!Xcursor.theme: Mac_OSX_Aqua
 ! xterm*faceName: -*-monaco-*-*-*-*-*-*-*-*-*-59-*-*
 xterm*utf8: 2
-!Xcursor.theme: Mac_OSX_Aqua
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 10
+xterm*vt100*geometry: 80x24
+xterm*saveLines: 16384
+xterm*loginShell: true
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*termName: xterm-color
+xterm*eightBitInput: false
+
+!BLK Cursor
+#define _color0        #000d18
+#define _color8        #000d18
+!RED Tag
+!#e89393
+#define _color1        #e86565
+#define _color9        #e86565
+!GRN SpecialKey
+!#9ece9e
+#define _color2        #5bce5b
+#define _color10       #5bce5b
+!YEL Keyword
+!f0dfaf
+#define _color3        #f0cd6b
+#define _color11       #f0cd6b
+!BLU Number
+!#8cd0d3
+#define _color4        #5d7cd3
+#define _color12       #5d7cd3
+!MAG Precondit
+!#c0bed1
+#define _color5        #d15cb2
+#define _color13       #d15cb2
+!CYN Float
+!#dfaf8f
+#define _color6        #4eb1b1
+#define _color14       #4eb1b1
+!WHT Search
+#define _color7        #efefef
+#define _color15       #efefef
+!FMT Include, StatusLine, ErrorMsg
+#define _colorBD       #ffcfaf
+#define _colorUL       #ccdc90
+#define _colorIT       #80d4aa
+!TXT Normal, Normal, Cursor
+#define _foreground    #dcdccc
+!#1f1f1f
+#define _background    #121212
+#define _cursorColor   #8faf9f
+URxvt*color0         : _color0
+URxvt*color1         : _color1
+URxvt*color2         : _color2
+URxvt*color3         : _color3
+URxvt*color4         : _color4
+URxvt*color5         : _color5
+URxvt*color6         : _color6
+URxvt*color7         : _color7
+URxvt*color8         : _color8
+URxvt*color9         : _color9
+URxvt*color10        : _color10
+URxvt*color11        : _color11
+URxvt*color12        : _color12
+URxvt*color13        : _color13
+URxvt*color14        : _color14
+URxvt*color15        : _color15
+URxvt*colorBD        : _colorBD
+URxvt*colorIT        : _colorIT
+URxvt*colorUL        : _colorUL
+URxvt*foreground     : _foreground
+URxvt*background     : _background
+URxvt*cursorColor    : _cursorColor
+xterm*color0         : _color0
+xterm*color1         : _color1
+xterm*color2         : _color2
+xterm*color3         : _color3
+xterm*color4         : _color4
+xterm*color5         : _color5
+xterm*color6         : _color6
+xterm*color7         : _color7
+xterm*color8         : _color8
+xterm*color9         : _color9
+xterm*color10        : _color10
+xterm*color11        : _color11
+xterm*color12        : _color12
+xterm*color13        : _color13
+xterm*color14        : _color14
+xterm*color15        : _color15
+xterm*colorBD        : _colorBD
+xterm*colorIT        : _colorIT
+xterm*colorUL        : _colorUL
+xterm*foreground     : _foreground
+xterm*background     : _background
+xterm*cursorColor    : _cursorColor
