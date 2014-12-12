@@ -8,7 +8,6 @@ xsetroot -cursor_name left_ptr
 conky
 iceweasel &
 icedove &
-chromium &
 
 /usr/local/bin/evilwm -fn fixed -term "urxvt" &
 exec urxvt -fg gray -bg gray30
