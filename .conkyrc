@@ -43,7 +43,7 @@ ${color #0077ff}Austin: $color${execi 3600 weather bergstrom | awk '/Temperature
 ${color #0077ff}Berlin: $color${execi 3600 weather tegel | awk '/Temperature/ {print $2, $3, $4, $5}'}${alignr}$color${tztime Europe/Berlin %F %H:%M %Z}
 ${color #0077ff}Osaka:  $color${execi 3600 weather osaka | awk '/Temperature/ {print $2, $3, $4, $5}'}${alignr}$color${tztime Japan %F %H:%M %Z}
 
-${color #0077ff}Uptime:$color $uptime ${color #0077ff} Load:$color $loadavg
+${color #0077ff}Uptime:$color $uptime ${color #0077ff} Load:$color $loadavg ${alignr}${addr eth0}
 ${color #0077ff}CPU:$color ${cpu}% ${color #0077ff}${cpubar 5,85}   ${color #0077ff}Disk I/O: $color${diskio}
 ${color #0077ff}${cpugraph 0 32,155 104E8B 0077ff} $alignr${color #0077ff}${diskiograph 32,155 104E8B 0077ff 750}
 ${color #0077ff}RAM Usage:$color $mem${color #0077ff}/${color}$memmax - $memperc% ${color #0077ff}$membar
