@@ -44,6 +44,7 @@ ${color #0077ff}Austin: $color${execi 3600 weather kaus | awk '/Temperature/ {pr
 ${color #0077ff}Cambridge: $color${execi 3600 weather egsc | awk '/Temperature/ {printf("%s %s %s %s", $2, $3, $4, $5)} /Humidity/ {printf(" %s\n", $3)}'}${alignr}$color${tztime Europe/London %F %H:%M %Z}
 ${color #0077ff}Berlin: $color${execi 3600 weather eddt | awk '/Temperature/ {printf("%s %s %s %s", $2, $3, $4, $5)} /Humidity/ {printf(" %s\n", $3)}'}${alignr}$color${tztime Europe/Berlin %F %H:%M %Z}
 ${color #0077ff}Osaka:  $color${execi 3600 weather rjoo | awk '/Temperature/ {printf("%s %s %s %s", $2, $3, $4, $5)} /Humidity/ {printf(" %s\n", $3)}'}${alignr}$color${tztime Japan %F %H:%M %Z}
+${color #0077ff}UTC: ${alignr}$color${tztime UTC %F %H:%M %Z}
 
 ${color #0077ff}Uptime:$color $uptime ${color #0077ff} Load:$color $loadavg ${alignr}${addr eth0}
 ${color #0077ff}CPU:$color ${cpu}% ${color #0077ff}${cpubar 5,85}   ${color #0077ff}Disk I/O: $color${diskio}
