@@ -31,12 +31,14 @@ own_window_type normal
 own_window yes
 stippled_borders 2
 update_interval 1
+update_interval_on_battery 3
 uppercase no
 use_spacer none
 use_xft no
 font fixed
 
 TEXT
+${color #0077ff}Battery: $color${acpiacadapter} - ${battery_percent BAT0}% ${battery_bar}
 #${texeci 3600 feh --bg-tile ~/Pictures/blue-bg-tile.png}
 #${color #0077ff}$nodename     ${alignc}$sysname $kernel
 ${color #0077ff}Austin: $color${execi 3600 weather kaus | awk '/Temperature/ {print $2, $3, $4, $5}'}${alignr}$color${tztime America/Chicago %F %H:%M %Z}
