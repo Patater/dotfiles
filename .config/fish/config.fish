@@ -2,6 +2,7 @@ if status --is-login
   set PATH $PATH /usr/bin /sbin /usr/sbin
 end
 set PATH $HOME/Projects/OS/cross/bin $PATH
+set PATH $HOME/Projects/git/contrib/workdir $PATH
 
 set EDITOR vim
 
