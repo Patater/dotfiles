@@ -4,7 +4,7 @@ xset fp rehash
 xsetroot -solid \#3f3f3f
 xsetroot -cursor_name left_ptr
 
-/usr/bin/xscreensaver -no-splash &
+#/usr/bin/xscreensaver -no-splash &
 conky
 iceweasel &
 icedove &
