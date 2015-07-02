@@ -1,0 +1,13 @@
+###include "/usr/share/themes/Clearlooks-Olive/gtk-2.0/gtkrc"
+###style "user-font" {
+###  font_name = "Verdana 8"
+###}
+###widget_class "*" style "user-font"
+###gtk-font-name="Verdana 8"
+####gtk-icon-theme-name = "nuoveXT-1.6"
+###gtk-icon-theme-name = "tangerine"
+
+
+gtk-icon-theme-name = "Tangerine"
+gtk-theme-name = "Mist"
+gtk-font-name = "DejaVu Sans 9"
