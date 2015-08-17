@@ -11,6 +11,7 @@
 	status = auto
 [core]
 	excludesfile = /home/jaeden/.gitignore_global
+	editor = vim
 [alias]
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
 	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
