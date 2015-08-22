@@ -7,8 +7,6 @@ xsetroot -cursor_name left_ptr
 $HOME/Projects/dotfiles/trackPointScrolling.sh &
 #/usr/bin/xscreensaver -no-splash &
 conky
-iceweasel &
-icedove &
 
 /usr/local/bin/evilwm -fn fixed -term "urxvt" &
 exec urxvt -fg gray -bg gray30
