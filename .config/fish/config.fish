@@ -8,6 +8,7 @@ if status --is-login
   set PATH $HOME/Projects/git/contrib/workdir $PATH
   set PATH $HOME/bin $PATH
 
+  set VISUAL vim
   set EDITOR vim
 end
 
