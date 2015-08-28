@@ -21,3 +21,4 @@ end
 alias mv="mv -i"
 alias cp="cp -i"
 alias tmux="tmux -2"
+alias fim="env FBFONT=/usr/share/kbd/consolefonts/ter-216n.psf.gz fim"
