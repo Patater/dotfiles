@@ -18,7 +18,7 @@ set ffs=unix,dos,mac
 " set sts=3 sw=3 ts=3
 
 " Linux Kernel Specific
-set noet sts=8 sw=8 ts=8
+" set noet sts=8 sw=8 ts=8
 
 " Google Style
 " set sts=2 sw=2 ts=2
