@@ -66,6 +66,11 @@ augroup gitcommit
     au FileType gitcommit setlocal tw=72
 augroup END
 
+augroup patch
+    au!
+    au FileType gitcommit setlocal tw=75
+augroup END
+
 if has("gui_running")
     set guioptions=egrLt
     set guioptions=-s
