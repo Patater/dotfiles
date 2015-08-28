@@ -1,6 +1,9 @@
 if status --is-login
   set PATH $PATH /usr/bin /sbin /usr/sbin
 
+  # perl (e.g. pod2man)
+  set PATH /usr/bin/core_perl $PATH
+
   set PATH $HOME/Projects/OS/cross/bin $PATH
   set PATH $HOME/Projects/git/contrib/workdir $PATH
   set PATH $HOME/bin $PATH
