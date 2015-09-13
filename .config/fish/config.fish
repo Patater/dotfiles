@@ -15,7 +15,7 @@ end
 # Keychain
 set -gx HOSTNAME (hostname)
 if status --is-interactive;
-  keychain --quiet --nogui ~/.ssh/id_rsa
+  keychain --quiet --nogui ~/.ssh/id_rsa ~/.ssh/id_ed25519
   [ -e $HOME/.keychain/$HOSTNAME-fish ]; and . $HOME/.keychain/$HOSTNAME-fish
 end
 
