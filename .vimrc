@@ -28,21 +28,30 @@ colorscheme desert
 " set wildmenu
 
 " Highlight too-long lines (and optionally trailing whitespace).
-highlight default link RightMargin Error
+highlight default link TooLong Error
+highlight default link TrailinWhites MatchParen
 function! HighlightTooLongLines(highlight_trailing_whitespace)
-  let l:regex_alternatives = []
+  let l:regex_rightmargin = []
+  let l:regex_trailinwhites = []
   if a:highlight_trailing_whitespace != 0
-    call add(l:regex_alternatives, '\s\+$')
+    call add(l:regex_trailinwhites, '\s\+$')
   endif
   if &textwidth != 0
-    call add(l:regex_alternatives, '\%>' . &textwidth . 'v.\+')
+    call add(l:regex_rightmargin, '\%>' . &textwidth . 'v.\+')
   endif
-  if len(l:regex_alternatives) > 0
-    let l:regex = '/\(' . join(l:regex_alternatives, '\|') . '\)/'
-    let l:match = 'match RightMargin ' . l:regex
+  if len(l:regex_rightmargin) > 0
+    let l:regex = '/\(' . join(l:regex_rightmargin, '\|') . '\)/'
+    let l:match = 'match TooLong ' . l:regex
     exec l:match
   else
     match none
+  endif
+  if len(l:regex_trailinwhites) > 0
+    let l:regex = '/\(' . join(l:regex_trailinwhites, '\|') . '\)/'
+    let l:match = '2match TrailinWhites ' . l:regex
+    exec l:match
+  else
+    2match none
   endif
 endfunction
 augroup filetypedetect
