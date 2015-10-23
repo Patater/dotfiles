@@ -10,6 +10,7 @@ if status --is-login
 
   set VISUAL vim
   set EDITOR vim
+  set BROWSER firefox
 end
 
 # Keychain
