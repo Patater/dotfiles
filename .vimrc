@@ -62,6 +62,9 @@ augroup end
 autocmd InsertEnter * call HighlightTooLongLines(0)
 autocmd InsertLeave * call HighlightTooLongLines(1)
 
+" Markdown type discovery
+autocmd BufNewFile,BufFilePre,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md set filetype=markdown
+
 " Tabs will be listed
 set list listchars=tab:»·
 
