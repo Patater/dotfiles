@@ -80,7 +80,7 @@ augroup END
 
 augroup patch
     au!
-    au FileType gitcommit setlocal tw=75
+    au FileType gitcommit setlocal tw=72
 augroup END
 
 if has("gui_running")
