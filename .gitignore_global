@@ -41,3 +41,7 @@ Thumbs.db
 #############
 *.swo
 *.swp
+
+# Ruby #
+########
+Gemfile.lock
