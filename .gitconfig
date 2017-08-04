@@ -19,6 +19,7 @@
 	lop = log -p --decorate
 	lof = log -p --follow --decorate
 	g = grep --break --heading --line-number
+	gi = grep --break --heading --line-number --ignore-case
 	vee = log --decorate --cherry-mark --oneline --graph --boundary
 [merge]
 	conflictstyle = diff3
