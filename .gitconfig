@@ -16,6 +16,8 @@
 	lol = log --decorate --pretty=oneline --abbrev-commit
 	lool = log --graph --decorate --pretty=oneline --abbrev-commit
 	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lop = log -p --decorate
+	lof = log -p --follow --decorate
 	g = grep --break --heading --line-number
 	vee = log --decorate --cherry-mark --oneline --graph --boundary
 [merge]
