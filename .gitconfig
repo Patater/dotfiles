@@ -12,6 +12,7 @@
 [core]
 	excludesfile = /home/jaeden/.gitignore_global
 	editor = vim
+	abbrev = 12
 [alias]
 	lol = log --decorate --pretty=oneline --abbrev-commit
 	lool = log --graph --decorate --pretty=oneline --abbrev-commit
@@ -26,3 +27,5 @@
 [sendemail]
 	name = Jaeden Amero
 	chainreplyto = false
+[pretty]
+	fixes = Fixes: %h (\"%s\")
