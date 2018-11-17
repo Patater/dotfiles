@@ -14,6 +14,9 @@ set showbreak=
 " Default to unix, and support detection of dos and mac file formats
 set ffs=unix,dos,mac
 
+" Default to UTF-8 encoding
+set encoding=utf-8
+
 " NI Specific
 " set sts=3 sw=3 ts=3
 
