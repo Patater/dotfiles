@@ -24,6 +24,7 @@
 	vee = log --decorate --cherry-mark --oneline --graph --boundary
 [merge]
 	conflictstyle = diff3
+	summary = true
 [sendemail]
 	name = Jaeden Amero
 	chainreplyto = false
