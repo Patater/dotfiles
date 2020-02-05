@@ -79,6 +79,11 @@ augroup makefile
     au FileType make,automake setlocal noet sts=0 ts=8 sw=8
 augroup END
 
+augroup golang
+    au!
+    au FileType go setlocal noet sts=0 ts=8 sw=8
+augroup END
+
 augroup gitcommit
     au!
     au FileType gitcommit setlocal tw=72
