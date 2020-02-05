@@ -68,6 +68,9 @@ autocmd InsertLeave * call HighlightTooLongLines(1)
 " Markdown type discovery
 autocmd BufNewFile,BufFilePre,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md set filetype=markdown
 
+" Mbed TLS test files are C with a .function postfix
+autocmd BufNewFile,BufFilePre,BufRead *.function set filetype=c
+
 " Tabs will be listed
 set list listchars=tab:»·
 
