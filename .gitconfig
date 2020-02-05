@@ -30,3 +30,5 @@
 	chainreplyto = false
 [pretty]
 	fixes = Fixes: %h (\"%s\")
+[status]
+	submoduleSummary = true
