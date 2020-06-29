@@ -13,6 +13,8 @@ if status --is-login
   set BROWSER firefox
 end
 
+set PATH $HOME/.local/bin $PATH
+
 # Keychain
 set -gx HOSTNAME (hostname)
 if status --is-interactive;
