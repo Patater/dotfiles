@@ -15,13 +15,6 @@ end
 
 set PATH $HOME/.local/bin $PATH
 
-# Keychain
-set -gx HOSTNAME (hostname)
-if status --is-interactive;
-  keychain --quiet --nogui ~/.ssh/id_rsa ~/.ssh/id_ed25519
-  [ -e $HOME/.keychain/$HOSTNAME-fish ]; and . $HOME/.keychain/$HOSTNAME-fish
-end
-
 alias mv="mv -i"
 alias cp="cp -i"
 alias tmux="tmux -2"
