@@ -35,8 +35,8 @@ games/phalanx
 games/scid
 graphics/ImageMagick
 graphics/gimp
-graphics/sdl2_ttf
 graphics/py-PyOpenGL
+graphics/sdl2_ttf
 graphics/wings
 graphics/xournalpp
 irc/irssi
