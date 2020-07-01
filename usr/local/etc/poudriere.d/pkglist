@@ -74,6 +74,7 @@ sysutils/conky
 sysutils/exfat-utils
 sysutils/fusefs-exfat
 sysutils/fusefs-hfsfuse
+sysutils/fusefs-ntfs
 sysutils/grub2-bhyve
 sysutils/k3b
 sysutils/neofetch
