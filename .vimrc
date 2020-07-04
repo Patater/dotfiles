@@ -129,3 +129,8 @@ endfun
 
 " gc ("garbage collect") strips all trailing whitespace
 nmap gc :%s/\s\+$//<CR>
+
+" clang-format
+" https://clang.llvm.org/docs/ClangFormat.html
+map <C-K> :py3f /usr/local/llvm90/share/clang/clang-format.py<cr>
+imap <C-K> <c-o>:py3f /usr/local/llvm90/share/clang/clang-format.py<cr>
