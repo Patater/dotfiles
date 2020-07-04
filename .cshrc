@@ -21,7 +21,7 @@ setenv GEM_HOME $HOME/.local/gems
 # Color on many system utilities
 setenv CLICOLOR 1
 
-set path = ($HOME/.local/bin $HOME/.local/gems/bin $path)
+set path = ($HOME/.local/bin $HOME/.local/gems/bin /usr/local/libexec/ccache $path)
 
 # These are normally set through /etc/login.conf.  You may override them here
 # if wanted.
