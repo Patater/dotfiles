@@ -25,7 +25,7 @@ devel/ruby-gems
 devel/sdl20
 devel/subversion
 editors/libreoffice
-editors/vim-console
+editors/vim
 emulators/cingb
 emulators/linux-c7
 emulators/qemu
