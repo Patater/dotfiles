@@ -49,3 +49,7 @@ Gemfile.lock
 # Folder exceptions #
 #####################
 !*.com
+
+*.gcno
+*.gcna
+*.gcda
