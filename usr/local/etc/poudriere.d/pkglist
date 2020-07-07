@@ -97,6 +97,7 @@ x11-themes/Kvantum
 x11-themes/gtk-engines2
 x11-themes/icons-tango
 x11-themes/qt5-style-plugins
+x11-toolkits/wxgtk30
 x11/kde5
 x11/libwacom
 x11/nvidia-driver
