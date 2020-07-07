@@ -28,6 +28,7 @@ editors/libreoffice
 editors/vim
 emulators/cingb
 emulators/linux-c7
+emulators/pcem
 emulators/qemu
 emulators/qemu-user-static
 games/chessx
