@@ -35,7 +35,7 @@ ftp/lftp
 games/chessx
 games/phalanx
 games/scid
-graphics/ImageMagick
+graphics/ImageMagick6
 graphics/gimp
 graphics/py-PyOpenGL
 graphics/sdl2_ttf
