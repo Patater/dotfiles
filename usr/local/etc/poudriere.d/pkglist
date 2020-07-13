@@ -19,8 +19,8 @@ devel/hs-ShellCheck
 devel/isl
 devel/lcov
 devel/mercurial
-devel/py-pip
 devel/py-game
+devel/py-pip
 devel/ruby-gems
 devel/sdl20
 devel/subversion
