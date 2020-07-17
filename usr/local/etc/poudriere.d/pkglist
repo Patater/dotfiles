@@ -6,6 +6,7 @@ audio/sdl_mixer
 benchmarks/wrk
 cad/kicad
 comms/hidapi
+databases/py-sqlite3
 databases/sqlite3
 deskutils/virt-manager
 devel/binaryen
