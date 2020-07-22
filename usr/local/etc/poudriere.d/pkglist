@@ -82,6 +82,7 @@ sysutils/fusefs-ntfs
 sysutils/grub2-bhyve
 sysutils/k3b
 sysutils/neofetch
+sysutils/smartmontools
 sysutils/tmux
 sysutils/tree
 textproc/meld
