@@ -78,3 +78,6 @@ bindkey "^[[3~" delete-char-or-list-or-eof
 setenv C_INCLUDE_PATH /usr/local/include
 setenv CPLUS_INCLUDE_PATH /usr/local/include
 setenv LIBRARY_PATH /usr/local/lib
+
+# CMake options
+setenv CMAKE_GENERATOR Ninja
