@@ -60,6 +60,7 @@ multimedia/vlc
 net-mgmt/collectd5
 net/freerdp
 net/mosh
+net/rclone
 net/rsync
 net/wireguard
 net-p2p/qbittorrent
