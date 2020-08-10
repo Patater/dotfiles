@@ -87,6 +87,7 @@ sysutils/neofetch
 sysutils/smartmontools
 sysutils/tmux
 sysutils/tree
+sysutils/usbutils
 sysutils/vagrant
 textproc/meld
 textproc/rubygem-asciidoctor
