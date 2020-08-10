@@ -33,6 +33,7 @@ emulators/linux-c7
 emulators/pcem
 emulators/qemu
 emulators/qemu-user-static
+emulators/virtualbox-ose
 ftp/lftp
 games/chessx
 games/phalanx
