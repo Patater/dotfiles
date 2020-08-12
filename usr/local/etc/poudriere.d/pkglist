@@ -41,6 +41,7 @@ games/scid
 graphics/ImageMagick6
 graphics/gimp
 graphics/py-PyOpenGL
+graphics/qt5-imageformats
 graphics/sdl2_ttf
 graphics/wings
 graphics/xournalpp
