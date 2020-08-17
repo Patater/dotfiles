@@ -64,6 +64,7 @@ net/freerdp
 net/mosh
 net/rclone
 net/rsync
+net/syncthing
 net/wireguard
 net-p2p/qbittorrent
 print/cups
