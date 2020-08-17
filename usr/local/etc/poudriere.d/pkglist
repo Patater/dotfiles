@@ -4,6 +4,7 @@ astro/weather
 audio/audacity
 audio/sdl_mixer
 benchmarks/wrk
+cad/geda
 cad/kicad
 comms/hidapi
 databases/py-sqlite3
