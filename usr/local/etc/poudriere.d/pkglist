@@ -11,6 +11,7 @@ comms/hidapi
 databases/py-sqlite3
 databases/sqlite3
 deskutils/virt-manager
+devel/astyle
 devel/binaryen
 devel/bison
 devel/ccache
