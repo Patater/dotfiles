@@ -52,6 +52,7 @@ irc/irssi
 java/openjdk14
 lang/go
 lang/python
+lang/rust
 math/cloog
 math/gmp
 math/gnuplot
