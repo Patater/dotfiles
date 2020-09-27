@@ -86,6 +86,7 @@ shells/fish
 sysutils/beadm
 sysutils/bhyve-firmware
 sysutils/conky
+sysutils/coreutils
 sysutils/exfat-utils
 sysutils/fusefs-exfat
 sysutils/fusefs-hfsfuse
