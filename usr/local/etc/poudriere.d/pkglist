@@ -57,6 +57,7 @@ java/openjdk14
 lang/gcc
 lang/go
 lang/python
+lang/racket
 lang/rust
 math/cloog
 math/gmp
