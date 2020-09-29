@@ -10,6 +10,7 @@ cad/kicad
 comms/hidapi
 databases/py-sqlite3
 databases/sqlite3
+deskutils/akregator
 deskutils/virt-manager
 devel/astyle
 devel/binaryen
