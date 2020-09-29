@@ -26,6 +26,7 @@ devel/lcov
 devel/mercurial
 devel/py-game
 devel/py-pip
+devel/py-tox
 devel/radare2
 devel/ruby-gems
 devel/sdl20
