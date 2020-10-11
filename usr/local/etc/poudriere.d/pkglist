@@ -13,6 +13,7 @@ databases/py-sqlite3
 databases/sqlite3
 deskutils/akregator
 deskutils/virt-manager
+devel/apache-ant
 devel/astyle
 devel/binaryen
 devel/bison
