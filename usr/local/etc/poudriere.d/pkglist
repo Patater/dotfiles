@@ -5,6 +5,7 @@ audio/audacity
 audio/sdl_mixer
 benchmarks/wrk
 cad/geda
+cad/gtkwave
 cad/iverilog
 cad/kicad
 comms/hidapi
