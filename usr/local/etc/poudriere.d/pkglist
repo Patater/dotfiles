@@ -28,6 +28,7 @@ devel/mercurial
 devel/py-game
 devel/py-pip
 devel/py-tox
+devel/qmake
 devel/radare2
 devel/ruby-gems
 devel/sdl20
