@@ -36,6 +36,7 @@ devel/sdl20
 devel/subversion
 editors/libreoffice
 editors/vim
+emulators/bochs
 emulators/cingb
 emulators/linux-c7
 emulators/pcem
