@@ -103,6 +103,7 @@ sysutils/grub2-bhyve
 sysutils/ipmitool
 sysutils/k3b
 sysutils/neofetch
+sysutils/pstree
 sysutils/smartmontools
 sysutils/tmux
 sysutils/tree
