@@ -98,6 +98,11 @@ augroup patch
     au FileType gitcommit setlocal tw=72
 augroup END
 
+augroup ft_asm
+    au!
+    au FileType asm setlocal noet sts=8 sw=8 ts=8
+augroup END
+
 if has("gui_running")
     set guioptions=egrLt
     set guioptions=-s
