@@ -127,6 +127,7 @@ x11-themes/icons-tango
 x11-themes/qt5-style-plugins
 x11-toolkits/wxgtk30
 x11-wm/evilwm
+x11-wm/xfce4
 x11/kde5
 x11/libwacom
 x11/nvidia-driver
