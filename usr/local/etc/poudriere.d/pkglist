@@ -111,6 +111,7 @@ sysutils/usbutils
 sysutils/vagrant
 textproc/meld
 textproc/rubygem-asciidoctor
+www/chromium
 www/firefox
 www/links
 www/nginx
