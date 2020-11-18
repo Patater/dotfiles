@@ -55,6 +55,7 @@ graphics/mesa-demos
 graphics/py-PyOpenGL
 graphics/qt5-imageformats
 graphics/sdl2_ttf
+graphics/tiled
 graphics/wings
 graphics/xournalpp
 irc/irssi
