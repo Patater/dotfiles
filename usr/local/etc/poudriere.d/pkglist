@@ -70,6 +70,7 @@ math/gmp
 math/gnuplot
 math/mpc
 math/mpfr
+math/octave
 misc/ktouch
 multimedia/ffmpeg
 multimedia/libav
