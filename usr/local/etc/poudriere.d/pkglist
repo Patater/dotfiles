@@ -27,6 +27,7 @@ devel/golint
 devel/hs-ShellCheck
 devel/isl
 devel/lcov
+devel/libtool
 devel/m4
 devel/mercurial
 devel/py-game
