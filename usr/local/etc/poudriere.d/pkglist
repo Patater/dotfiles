@@ -38,6 +38,7 @@ editors/libreoffice
 editors/vim
 emulators/bochs
 emulators/cingb
+emulators/dosbox
 emulators/linux-c7
 emulators/pcem
 emulators/qemu
