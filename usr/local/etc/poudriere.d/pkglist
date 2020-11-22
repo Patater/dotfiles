@@ -15,6 +15,7 @@ deskutils/akregator
 deskutils/virt-manager
 devel/apache-ant
 devel/astyle
+devel/autoconf
 devel/binaryen
 devel/bison
 devel/ccache
