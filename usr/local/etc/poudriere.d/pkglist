@@ -65,6 +65,7 @@ lang/go
 lang/python
 lang/racket
 lang/rust
+mail/thunderbird
 math/cloog
 math/gmp
 math/gnuplot
