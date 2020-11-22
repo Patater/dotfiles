@@ -40,6 +40,7 @@ emulators/bochs
 emulators/cingb
 emulators/dosbox
 emulators/linux-c7
+emulators/mgba
 emulators/pcem
 emulators/qemu
 emulators/qemu-user-static
