@@ -38,6 +38,7 @@ devel/radare2
 devel/ruby-gems
 devel/sdl20
 devel/subversion
+devel/valgrind
 editors/libreoffice
 editors/vim
 emulators/bochs
