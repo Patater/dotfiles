@@ -68,6 +68,7 @@ graphics/wings
 graphics/xournalpp
 irc/irssi
 java/openjdk14
+lang/fasm
 lang/gcc
 lang/go
 lang/python
