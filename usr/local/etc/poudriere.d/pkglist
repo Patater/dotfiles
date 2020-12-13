@@ -107,6 +107,7 @@ sysutils/beadm
 sysutils/bhyve-firmware
 sysutils/conky
 sysutils/coreutils
+sysutils/dmg2img
 sysutils/exfat-utils
 sysutils/fusefs-exfat
 sysutils/fusefs-hfsfuse
