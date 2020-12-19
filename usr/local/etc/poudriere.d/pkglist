@@ -100,6 +100,7 @@ print/gutenprint
 print/texinfo
 print/freetype
 print/freetype2
+security/gnupg
 security/nmap
 security/sudo
 security/py-certbot
