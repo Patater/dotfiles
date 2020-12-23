@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Macintosh II
+Columns: 8
+#
+  0   0   0	Black
+ 32  32  32	Dark Gray
+128 128 128	Gray
+192 192 192	Light Gray
+144 113  58	Light Brown
+ 86  44   5	Brown
+  0 100  17	Dark Green
+ 31 183  20	Green
+  2 171 234	Light Blue
+  0   0 212	Blue
+ 70   0 165	Purple
+242   8 132	Pink
+221   8   6	Red
+255 100   2	Orange
+252 243   5	Yellow
+255 255 255	White
