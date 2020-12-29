@@ -59,6 +59,7 @@ games/scid
 graphics/ImageMagick6
 graphics/gimp
 graphics/glfw
+graphics/grafx2
 graphics/imlib2
 graphics/libheif
 graphics/mesa-demos
