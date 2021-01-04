@@ -51,6 +51,7 @@ emulators/mgba
 emulators/pcem
 emulators/qemu
 emulators/qemu-user-static
+emulators/snes9x-gtk
 emulators/virtualbox-ose
 ftp/lftp
 games/chessx
