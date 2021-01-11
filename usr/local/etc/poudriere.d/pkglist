@@ -26,6 +26,7 @@ devel/dbus
 devel/emscripten
 devel/git
 devel/golint
+devel/googletest
 devel/hs-ShellCheck
 devel/isl
 devel/lcov
