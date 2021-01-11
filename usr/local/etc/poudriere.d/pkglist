@@ -25,6 +25,7 @@ devel/ccache
 devel/cppcheck
 devel/dbus
 devel/emscripten
+devel/gdb
 devel/git
 devel/golint
 devel/googletest
