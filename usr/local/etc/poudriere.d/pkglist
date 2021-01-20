@@ -126,6 +126,7 @@ sysutils/ipmitool
 sysutils/k3b
 sysutils/neofetch
 sysutils/pstree
+sysutils/screen
 sysutils/smartmontools
 sysutils/tmux
 sysutils/tree
