@@ -132,6 +132,7 @@ sysutils/tmux
 sysutils/tree
 sysutils/usbutils
 sysutils/vagrant
+textproc/jq
 textproc/meld
 textproc/rubygem-asciidoctor
 www/chromium
