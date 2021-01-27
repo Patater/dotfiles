@@ -111,6 +111,7 @@ security/nmap
 security/sudo
 security/py-certbot
 shells/fish
+sysutils/bastille
 sysutils/beadm
 sysutils/bhyve-firmware
 sysutils/conky
