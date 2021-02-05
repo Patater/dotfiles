@@ -39,8 +39,8 @@ if ($?prompt) then
 	set promptchars = "%#"
 
 	set filec
-	set history = 10000
-	set savehist = (10000 merge)
+	set history = 1000000
+	set savehist = (1000000 merge)
 	set autolist = ambiguous
 	# Use history to aid expansion
 	set autoexpand
