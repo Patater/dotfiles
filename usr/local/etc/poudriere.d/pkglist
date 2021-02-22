@@ -95,6 +95,7 @@ multimedia/plexmediaserver
 multimedia/vlc
 net-mgmt/collectd5
 net/freerdp
+net/megatools
 net/mosh
 net/rclone
 net/rsync
