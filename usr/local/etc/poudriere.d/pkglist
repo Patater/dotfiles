@@ -92,6 +92,7 @@ math/octave
 misc/ktouch
 multimedia/ffmpeg
 multimedia/libav
+multimedia/obs-studio
 multimedia/plexmediaserver
 multimedia/vlc
 net-mgmt/collectd5
