@@ -121,6 +121,7 @@ sysutils/conky
 sysutils/coreutils
 sysutils/dmg2img
 sysutils/exfat-utils
+sysutils/fd
 sysutils/fusefs-exfat
 sysutils/fusefs-hfsfuse
 sysutils/fusefs-ntfs
