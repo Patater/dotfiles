@@ -10,6 +10,7 @@ brew install \
     freeimage \
     git \
     go \
+    irssi \
     libfreeimage \
     libpng \
     libtool \
