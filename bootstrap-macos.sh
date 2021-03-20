@@ -18,4 +18,5 @@ brew install \
     ninja \
     sdl2 \
     tmux \
+    vlc \
     youtube-dl \
