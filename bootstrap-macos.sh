@@ -16,6 +16,7 @@ brew install \
     libpng \
     libtool \
     lua \
+    make \
     mosh \
     ninja \
     sdl2 \
