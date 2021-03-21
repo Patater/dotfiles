@@ -56,6 +56,7 @@ emulators/qemu
 emulators/qemu-user-static
 emulators/snes9x-gtk
 emulators/virtualbox-ose
+finance/ledger
 ftp/lftp
 games/chessx
 games/phalanx
