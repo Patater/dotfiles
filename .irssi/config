@@ -39,7 +39,7 @@ servers = (
     password = "patater-bitlbee:lolpassword";
     use_ssl = "yes";
     ssl_verify = "no";
-    autoconnect = "yes";
+    autoconnect = "no";
   },
   {
     address = "patater.com";
