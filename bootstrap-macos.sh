@@ -7,6 +7,7 @@ brew install \
     autoconf \
     automake \
     cmake \
+    emscripten \
     freeimage \
     git \
     go \
