@@ -17,6 +17,7 @@ brew install \
     libtool \
     lua \
     make \
+    meson \
     mosh \
     ninja \
     sdl2 \
