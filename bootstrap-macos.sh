@@ -23,4 +23,5 @@ brew install \
     sdl2 \
     tmux \
     vlc \
+    wget \
     youtube-dl \
