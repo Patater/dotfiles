@@ -25,6 +25,7 @@ brew install \
     ninja \
     sdl2 \
     tmux \
+    tree \
     vlc \
     wget \
     youtube-dl \
