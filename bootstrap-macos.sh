@@ -15,6 +15,7 @@ brew install \
     git \
     go \
     irssi \
+    lcov \
     libfreeimage \
     libpng \
     libtool \
