@@ -2,6 +2,8 @@ set ai et sts=4 sw=4 ts=4 nocompatible bs=2 bg=dark hlsearch incsearch
 set ruler visualbell noerrorbells t_vb= nojoinspaces
 set tw=79
 
+language en_US.UTF-8
+
 " Disable auto-wrapping both display and hard wrapping
 set nowrap
 set fo-=t
