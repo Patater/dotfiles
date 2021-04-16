@@ -64,6 +64,7 @@ games/phalanx
 games/scid
 games/stockfish
 graphics/ImageMagick6
+graphics/drm-kmod
 graphics/gimp
 graphics/glfw
 graphics/grafx2
