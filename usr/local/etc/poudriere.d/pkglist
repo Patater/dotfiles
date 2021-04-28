@@ -42,6 +42,7 @@ devel/qmake
 devel/radare2
 devel/ruby-gems
 devel/sdl20
+devel/srecord
 devel/subversion
 devel/valgrind
 editors/libreoffice
