@@ -27,3 +27,9 @@ ln -s $(CWD)/usr/local/etc/pkg/repos/amd64-12-2.conf /usr/local/etc/pkg/repos/am
 
 # Install all the packages
 xargs sudo pkg install -fy < /usr/local/etc/poudriere.d/pkglist
+
+# samba
+pkg install samba412
+#pdbedit -a -u jaeden (enter password and stuff manually)
+sysrc samba_server_enable=YES
+service samba_server start
