@@ -145,6 +145,7 @@ sysutils/vagrant
 textproc/jq
 textproc/meld
 textproc/rubygem-asciidoctor
+www/aria2
 www/chromium
 www/firefox
 www/links
