@@ -134,6 +134,7 @@ sysutils/grub2-bhyve
 sysutils/hfsutils
 sysutils/ipmitool
 sysutils/k3b
+sysutils/k4dirstat
 sysutils/neofetch
 sysutils/pstree
 sysutils/screen
