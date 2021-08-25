@@ -34,6 +34,7 @@ brew install \
 
 brew install --cask \
     firefox \
+    gimp \
 
 # Build the locate database
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
