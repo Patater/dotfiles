@@ -25,6 +25,7 @@ brew install \
     mosh \
     ninja \
     sdl2 \
+    telnet \
     tmux \
     tree \
     vlc \
