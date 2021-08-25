@@ -5,6 +5,7 @@ archivers/unrar
 astro/weather
 audio/audacity
 audio/sdl_mixer
+benchmarks/stress-ng
 benchmarks/wrk
 cad/geda
 cad/gtkwave
