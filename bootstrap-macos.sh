@@ -32,5 +32,8 @@ brew install \
     wget \
     youtube-dl \
 
+brew install --cask \
+    firefox \
+
 # Build the locate database
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
