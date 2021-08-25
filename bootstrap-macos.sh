@@ -31,3 +31,6 @@ brew install \
     vlc \
     wget \
     youtube-dl \
+
+# Build the locate database
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
