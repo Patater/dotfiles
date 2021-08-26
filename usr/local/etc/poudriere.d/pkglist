@@ -94,6 +94,7 @@ math/gmp
 math/gnuplot
 math/mpc
 math/mpfr
+math/mprime
 math/octave
 misc/ktouch
 multimedia/ffmpeg
