@@ -13,6 +13,9 @@ if status --is-login
   set BROWSER firefox
 end
 
+# CMake
+set -Ux CTEST_PARALLEL_LEVEL 56
+
 set PATH $HOME/.local/bin $PATH
 
 alias mv="mv -i"
