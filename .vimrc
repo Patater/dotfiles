@@ -141,3 +141,6 @@ nmap gc :%s/\s\+$//<CR>
 " https://clang.llvm.org/docs/ClangFormat.html
 map <C-K> :py3f /usr/local/llvm90/share/clang/clang-format.py<cr>
 imap <C-K> <c-o>:py3f /usr/local/llvm90/share/clang/clang-format.py<cr>
+
+" Common custom C89 Types
+syn keyword cType u8 u16 u32 i8 i16 i32
