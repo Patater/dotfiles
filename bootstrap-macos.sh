@@ -8,6 +8,7 @@ brew install \
     autoconf \
     automake \
     bsdmake \
+    clang-format \
     cmake \
     emscripten \
     font-ubuntu-mono \
