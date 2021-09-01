@@ -15,6 +15,7 @@ brew install \
     freeimage \
     git \
     go \
+    imagemagick \
     irssi \
     lcov \
     libfreeimage \
