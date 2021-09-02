@@ -18,6 +18,7 @@ brew install \
     imagemagick \
     irssi \
     lcov \
+    ledger \
     libfreeimage \
     libpng \
     libtool \
