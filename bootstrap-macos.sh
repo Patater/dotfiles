@@ -27,6 +27,7 @@ brew install \
     meson \
     mosh \
     ninja \
+    perl \
     sdl2 \
     subversion \
     telnet \
