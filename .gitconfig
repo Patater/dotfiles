@@ -10,7 +10,7 @@
 	interactive = auto
 	status = auto
 [core]
-	excludesfile = /home/jaeden/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = vim
 	abbrev = 12
 [alias]
