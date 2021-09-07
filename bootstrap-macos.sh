@@ -28,6 +28,7 @@ brew install \
     mosh \
     ninja \
     sdl2 \
+    subversion \
     telnet \
     tmux \
     tree \
