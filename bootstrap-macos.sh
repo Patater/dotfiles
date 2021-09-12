@@ -43,5 +43,10 @@ brew install --cask \
     gimp \
     hex-fiend \
 
+# Ruby gems
+gem install --user-install \
+    bundler \
+    jekyll
+
 # Build the locate database
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
