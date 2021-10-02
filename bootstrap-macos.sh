@@ -7,6 +7,7 @@ brew tap homebrew/cask-fonts
 brew install \
     autoconf \
     automake \
+    bochs \
     bsdmake \
     clang-format \
     cmake \
