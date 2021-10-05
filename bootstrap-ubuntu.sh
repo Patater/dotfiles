@@ -26,6 +26,7 @@ sudo apt install -y \
     stockfish \
     subversion \
     tmux \
+    tox \
     vim \
     vlc \
     weather-util \
