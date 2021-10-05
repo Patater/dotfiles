@@ -6,6 +6,7 @@ sudo apt install -y \
     conky \
     dosbox \
     evilwm \
+    ffmpeg \
     fish \
     gimp \
     git \
