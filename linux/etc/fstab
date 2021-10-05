@@ -1,0 +1,6 @@
+# Bind mounts, so certain snaps can access the directories
+/tank/fs/library/Documents /home/jaeden/Documents none defaults,bind,nofail 0 0
+/tank/fs/library/Downloads /home/jaeden/Downloads none defaults,bind,nofail 0 0
+/tank/fs/library/Audio/Music /home/jaeden/Music none defaults,bind,nofail 0 0
+/tank/fs/library/Pictures /home/jaeden/Pictures none defaults,bind,nofail 0 0
+/tank/fs/library/Videos /home/jaeden/Videos none defaults,bind,nofail 0 0
