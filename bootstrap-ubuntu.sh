@@ -18,6 +18,8 @@ sudo apt install -y \
     libsdl2-dev \
     net-tools \
     ninja-build \
+    nodejs \
+    npm \
     python3-pip \
     python3-virtualenv \
     qbittorrent \
