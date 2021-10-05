@@ -1,4 +1,5 @@
 sudo apt install -y \
+    aria2 \
     build-essential \
     chessx \
     cmake \
