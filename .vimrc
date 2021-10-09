@@ -92,12 +92,12 @@ augroup END
 
 augroup gitcommit
     au!
-    au FileType gitcommit setlocal tw=72 spell
+    au FileType gitcommit setlocal tw=72 spell fo+=t
 augroup END
 
 augroup patch
     au!
-    au FileType gitcommit setlocal tw=72 spell
+    au FileType gitcommit setlocal tw=72 spell fo+=t
 augroup END
 
 augroup ft_asm
