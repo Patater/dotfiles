@@ -5,6 +5,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $(HOME)/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew tap homebrew/cask-fonts
 brew install \
+    64tass \
     autoconf \
     automake \
     bochs \
