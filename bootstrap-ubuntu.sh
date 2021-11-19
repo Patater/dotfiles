@@ -16,6 +16,7 @@ sudo apt install -y \
     k3b \
     k4dirstat \
     libsdl2-dev \
+    mesa-utils \
     net-tools \
     ninja-build \
     nodejs \
