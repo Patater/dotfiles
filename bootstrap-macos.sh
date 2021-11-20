@@ -13,6 +13,7 @@ brew install \
     clang-format \
     cmake \
     emscripten \
+    ffmpeg \
     font-ubuntu-mono \
     freeimage \
     git \
