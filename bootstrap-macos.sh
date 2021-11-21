@@ -12,6 +12,7 @@ brew install \
     bsdmake \
     clang-format \
     cmake \
+    dos2unix \
     emscripten \
     ffmpeg \
     font-ubuntu-mono \
