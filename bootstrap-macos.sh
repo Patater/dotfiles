@@ -27,6 +27,7 @@ brew install \
     libpng \
     libtool \
     lua \
+    mactex \
     make \
     meson \
     mosh \
