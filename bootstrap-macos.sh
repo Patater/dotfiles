@@ -35,6 +35,7 @@ brew install \
     perl \
     ruby \
     sdl2 \
+    sdl2_image \
     subversion \
     telnet \
     tmux \
