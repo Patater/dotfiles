@@ -6,6 +6,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew tap homebrew/cask-fonts
 brew install \
     64tass \
+    aria2 \
     autoconf \
     automake \
     bochs \
