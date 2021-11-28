@@ -44,6 +44,7 @@ brew install \
     vlc \
     wget \
     youtube-dl \
+    yt-dlp/taps/yt-dlp \
 
 brew install --cask \
     firefox \
