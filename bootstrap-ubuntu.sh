@@ -11,6 +11,7 @@ sudo apt install -y \
     gimp \
     git \
     git-svn \
+    imagemagick-6.q16 \
     irssi \
     iverilog \
     k3b \
