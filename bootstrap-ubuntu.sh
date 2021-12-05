@@ -36,3 +36,4 @@ sudo apt install -y \
 
 pip install --user \
     youtube-dl \
+    yt-dlp \
