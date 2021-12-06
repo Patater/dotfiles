@@ -1,4 +1,5 @@
 sudo apt install -y \
+    anki \
     aria2 \
     build-essential \
     chessx \
