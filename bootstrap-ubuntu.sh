@@ -13,6 +13,7 @@ sudo apt install -y \
     git \
     git-svn \
     imagemagick-6.q16 \
+    ipmitool \
     irssi \
     iverilog \
     k3b \
