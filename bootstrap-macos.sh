@@ -50,6 +50,7 @@ brew install --cask \
     firefox \
     gimp \
     hex-fiend \
+    xquartz \
 
 # Ruby gems
 gem install --user-install \
