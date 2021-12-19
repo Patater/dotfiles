@@ -52,6 +52,7 @@ brew install \
 ln -s "$(brew --prefix llvm)/bin/clang-tidy" $(HOME)/.local/bin/clang-tidy
 
 brew install --cask \
+    anki \
     firefox \
     gimp \
     hex-fiend \
