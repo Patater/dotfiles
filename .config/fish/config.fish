@@ -18,6 +18,7 @@ set -Ux CTEST_PARALLEL_LEVEL 56
 
 set PATH $HOME/.local/bin $PATH
 
+alias ls="ls --color"
 alias mv="mv -i"
 alias cp="cp -i"
 alias tmux="tmux -2"
