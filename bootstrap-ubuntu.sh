@@ -25,6 +25,7 @@ sudo apt install -y \
     ninja-build \
     nodejs \
     npm \
+    openssh-server \
     python3-pip \
     python3-virtualenv \
     qbittorrent \
