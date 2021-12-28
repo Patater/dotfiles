@@ -20,6 +20,7 @@ sudo apt install -y \
     k4dirstat \
     libsdl2-dev \
     mesa-utils \
+    mosh \
     net-tools \
     ninja-build \
     nodejs \
