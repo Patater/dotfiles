@@ -38,6 +38,7 @@ devel/lcov
 devel/libtool
 devel/m4
 devel/mercurial
+devel/ncurses
 devel/py-game
 devel/py-pip
 devel/py-tox
