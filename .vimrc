@@ -101,6 +101,11 @@ augroup patch
     au FileType gitcommit setlocal tw=72 spell fo+=t
 augroup END
 
+augroup markdown
+    au!
+    au FileType markdown setlocal spell
+augroup END
+
 augroup ft_asm
     au!
     au FileType asm setlocal noet sts=8 sw=8 ts=8
