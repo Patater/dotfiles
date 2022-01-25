@@ -3,6 +3,7 @@ set ruler visualbell noerrorbells t_vb= nojoinspaces
 set tw=79
 
 language en_US.UTF-8
+set spelllang=en_us
 
 " Disable auto-wrapping both display and hard wrapping
 set nowrap
