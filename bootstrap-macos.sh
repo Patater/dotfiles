@@ -21,6 +21,7 @@ brew install \
     git \
     go \
     imagemagick \
+    include-what-you-use \
     irssi \
     lcov \
     ledger \
