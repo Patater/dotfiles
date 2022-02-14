@@ -28,6 +28,7 @@ brew install \
     libfreeimage \
     libpng \
     libtool \
+    llvm \
     lua \
     mactex \
     make \
@@ -46,6 +47,9 @@ brew install \
     wget \
     youtube-dl \
     yt-dlp/taps/yt-dlp \
+
+# Add symlinks for llvm tools
+ln -s "$(brew --prefix llvm)/bin/clang-tidy" $(HOME)/.local/bin/clang-tidy
 
 brew install --cask \
     firefox \
