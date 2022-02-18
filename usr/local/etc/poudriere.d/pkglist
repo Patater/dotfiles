@@ -101,6 +101,7 @@ math/mpfr
 math/mprime
 math/octave
 misc/ktouch
+misc/unclutter
 multimedia/ffmpeg
 multimedia/libav
 multimedia/obs-studio
