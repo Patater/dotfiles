@@ -131,6 +131,7 @@ sysutils/beadm
 sysutils/bhyve-firmware
 sysutils/conky
 sysutils/coreutils
+sysutils/debootstrap
 sysutils/dmg2img
 sysutils/exfat-utils
 sysutils/fd
