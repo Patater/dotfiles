@@ -13,6 +13,7 @@ brew install \
     bsdmake \
     clang-format \
     cmake \
+    docbook \
     dos2unix \
     emscripten \
     ffmpeg \
@@ -27,6 +28,7 @@ brew install \
     ledger \
     libfreeimage \
     libpng \
+    librsvg \
     libtool \
     llvm \
     lua \
@@ -35,6 +37,7 @@ brew install \
     meson \
     mosh \
     ninja \
+    pandoc \
     perl \
     ruby \
     sdl2 \
