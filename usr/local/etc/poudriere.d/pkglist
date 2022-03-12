@@ -33,6 +33,7 @@ devel/git
 devel/golint
 devel/googletest
 devel/hs-ShellCheck
+devel/include-what-you-use
 devel/isl
 devel/lcov
 devel/libtool
