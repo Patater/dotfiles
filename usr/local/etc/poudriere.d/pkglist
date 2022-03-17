@@ -102,6 +102,7 @@ math/mpc
 math/mpfr
 math/mprime
 math/octave
+misc/e2fsprogs-libuuid
 misc/ktouch
 misc/unclutter
 multimedia/ffmpeg
