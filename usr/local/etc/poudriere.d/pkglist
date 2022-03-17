@@ -30,6 +30,7 @@ devel/dbus
 devel/emscripten
 devel/gdb
 devel/git
+devel/gmake
 devel/golint
 devel/googletest
 devel/hs-ShellCheck
