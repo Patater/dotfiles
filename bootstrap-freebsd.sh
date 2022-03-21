@@ -33,3 +33,6 @@ pkg install samba412
 #pdbedit -a -u jaeden (enter password and stuff manually)
 sysrc samba_server_enable=YES
 service samba_server start
+
+# zfs management
+sysrc daily_scrub_zfs_enable=YES
