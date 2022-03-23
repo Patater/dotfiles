@@ -22,6 +22,7 @@ brew install \
     freeglut \
     freeimage \
     git \
+    glew \
     go \
     imagemagick \
     include-what-you-use \
