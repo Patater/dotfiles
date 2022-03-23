@@ -23,6 +23,7 @@ brew install \
     freeimage \
     git \
     glew \
+    glm \
     go \
     imagemagick \
     include-what-you-use \
