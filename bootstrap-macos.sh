@@ -18,6 +18,7 @@ brew install \
     emscripten \
     ffmpeg \
     font-ubuntu-mono \
+    freeglut \
     freeimage \
     git \
     go \
