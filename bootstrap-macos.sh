@@ -13,6 +13,7 @@ brew install \
     bsdmake \
     clang-format \
     cmake \
+    devil \
     docbook \
     dos2unix \
     emscripten \
