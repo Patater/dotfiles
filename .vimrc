@@ -79,6 +79,11 @@ autocmd BufNewFile,BufFilePre,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.m
 " Mbed TLS test files are C with a .function postfix
 autocmd BufNewFile,BufFilePre,BufRead *.function set filetype=c
 
+" GLSL shaders
+autocmd BufNewFile,BufRead *.vert,*.tesc,*.tese,*.geom,*.frag,*.comp set filetype=glsl
+autocmd BufNewFile,BufRead *.glsl,*.glvs,*.glfs,*.vs,*.fs set ft=glsl
+autocmd BufNewFile,BufRead *.rgen,*.rmiss,*.rchit,*.rahit,*.rint,*.rcall set filetype=glsl
+
 " Tabs will be listed
 set list listchars=tab:»·
 
