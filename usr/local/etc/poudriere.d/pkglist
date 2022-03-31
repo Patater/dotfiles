@@ -88,6 +88,7 @@ graphics/wings
 graphics/xournalpp
 irc/irssi
 java/openjdk14
+lang/clover
 lang/fasm
 lang/gcc
 lang/go
