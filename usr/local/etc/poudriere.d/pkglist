@@ -25,6 +25,7 @@ devel/binaryen
 devel/bison
 devel/ccache
 devel/checkbashisms
+devel/clinfo
 devel/cppcheck
 devel/dbus
 devel/emscripten
