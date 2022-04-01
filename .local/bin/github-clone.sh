@@ -2,7 +2,7 @@
 
 # GitHub downloader
 
-DEST=/tank/fs/library/Code
+DEST=/tank/code
 
 if [ -z "$1" ]; then
     echo "waiting for the following arguments: GitHub-URL"
