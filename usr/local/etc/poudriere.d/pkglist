@@ -4,6 +4,7 @@ archivers/stuffit
 archivers/unrar
 astro/weather
 audio/audacity
+audio/elisa
 audio/sdl_mixer
 benchmarks/glmark2
 benchmarks/stress-ng
