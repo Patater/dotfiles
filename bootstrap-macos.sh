@@ -39,6 +39,7 @@ brew install \
     mactex \
     make \
     meson \
+    molten-vk \
     mosh \
     ninja \
     pandoc \
