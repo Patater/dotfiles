@@ -43,6 +43,7 @@ brew install \
     mosh \
     ninja \
     pandoc \
+    parallel \
     perl \
     ruby \
     sdl2 \
