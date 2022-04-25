@@ -84,6 +84,7 @@ graphics/mesa-demos
 graphics/py-PyOpenGL
 graphics/qt5-imageformats
 graphics/sdl2_ttf
+graphics/shaderc
 graphics/svgalib
 graphics/tiled
 graphics/wings
