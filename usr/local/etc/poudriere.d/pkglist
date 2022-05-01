@@ -5,7 +5,7 @@ archivers/unrar
 astro/weather
 audio/audacity
 audio/elisa
-audio/sdl_mixer
+audio/sdl2_mixer
 benchmarks/glmark2
 benchmarks/stress-ng
 benchmarks/wrk
