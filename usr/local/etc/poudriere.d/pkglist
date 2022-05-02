@@ -87,6 +87,7 @@ graphics/sdl2_ttf
 graphics/shaderc
 graphics/svgalib
 graphics/tiled
+graphics/vulkan-validation-layers
 graphics/wings
 graphics/xournalpp
 irc/irssi
