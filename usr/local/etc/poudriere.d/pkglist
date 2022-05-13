@@ -118,6 +118,7 @@ multimedia/obs-studio
 multimedia/plexmediaserver
 multimedia/v4l-utils
 multimedia/vlc
+multimedia/webcamd
 net-mgmt/collectd5
 net/freerdp
 net/megatools
