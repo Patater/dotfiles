@@ -115,6 +115,7 @@ multimedia/ffmpeg
 multimedia/libav
 multimedia/obs-studio
 multimedia/plexmediaserver
+multimedia/v4l-utils
 multimedia/vlc
 net-mgmt/collectd5
 net/freerdp
