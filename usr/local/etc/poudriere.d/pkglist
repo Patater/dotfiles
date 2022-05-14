@@ -116,6 +116,7 @@ multimedia/ffmpeg
 multimedia/libav
 multimedia/obs-studio
 multimedia/plexmediaserver
+multimedia/pwcview
 multimedia/v4l-utils
 multimedia/vlc
 multimedia/webcamd
