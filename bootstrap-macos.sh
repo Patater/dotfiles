@@ -65,6 +65,7 @@ brew install --cask \
     firefox \
     gimp \
     hex-fiend \
+    unnaturalscrollwheels \
     xquartz \
 
 # Ruby gems
