@@ -40,3 +40,9 @@ service samba_server start
 
 # zfs management
 sysrc daily_scrub_zfs_enable=YES
+
+# Webcam
+sysrc cuse_load=YES
+sysrc webcamd_enable=YES
+sysrc kldlist+=cuse
+sysrc kldlist+=fusefs
