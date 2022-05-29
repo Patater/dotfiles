@@ -46,3 +46,9 @@ sysrc cuse_load=YES
 sysrc webcamd_enable=YES
 sysrc kldlist+=cuse
 sysrc kldlist+=fusefs
+
+# Bhyve
+sysrc -f /etc/sysctl.conf net.link.up_on_open=1
+sysctl net.link.tap.up_on_open=1
+sysrc kldlist+=vmm
+sysrc kldlist+=nmdm
