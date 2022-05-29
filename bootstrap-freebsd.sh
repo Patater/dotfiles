@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# pkg
+mkdir -p /usr/local/etc/pkg/repos
+echo "FreeBSD: { enabled: no }" > /usr/local/etc/pkg/repos/FreeBSD.conf
+
 # Install poudriere
 pkg install poudriere
 pkg install ccache
