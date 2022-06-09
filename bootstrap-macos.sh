@@ -25,6 +25,7 @@ brew install \
     glew \
     glm \
     go \
+    gnuradio \
     imagemagick \
     include-what-you-use \
     irssi \
