@@ -36,6 +36,7 @@ devel/git
 devel/gmake
 devel/golint
 devel/googletest
+devel/gradle
 devel/hs-ShellCheck
 devel/include-what-you-use
 devel/isl
