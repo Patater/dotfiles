@@ -13,6 +13,7 @@ cad/geda
 cad/gtkwave
 cad/iverilog
 cad/kicad
+comms/gqrx
 comms/hidapi
 databases/py-sqlite3
 databases/sqlite3
