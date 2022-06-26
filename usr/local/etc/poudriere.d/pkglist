@@ -33,6 +33,7 @@ devel/dbus
 devel/emscripten
 devel/gdb
 devel/git
+devel/git-svn
 devel/gmake
 devel/golint
 devel/googletest
