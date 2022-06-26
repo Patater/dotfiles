@@ -35,7 +35,6 @@ brew install \
     libtool \
     llvm \
     lua \
-    mactex \
     make \
     meson \
     molten-vk \
