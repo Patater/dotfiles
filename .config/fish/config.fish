@@ -15,6 +15,7 @@ end
 
 # CMake
 set -Ux CTEST_PARALLEL_LEVEL 56
+set -Ux CTEST_OUTPUT_ON_FAILURE 1
 
 set PATH $HOME/.local/bin $PATH
 
