@@ -1,62 +1,72 @@
 #!/bin/sh
 set -e
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $(HOME)/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-brew install \
+
+# MacPorts
+mpVersion='2.7.2'
+
+curl -O https://distfiles.macports.org/MacPorts/MacPorts-$mpVersion.tar.bz2
+tar xf MacPorts-$mpVersion.tar.bz2
+cd MacPorts-$mpVersion/
+./configure
+make
+sudo make install
+sudo port -N install \
     64tass \
+    ImageMagick \
+    MoltenVK \
+    VLC \
     aria2 \
+    audacity \
     autoconf \
     automake \
     bochs \
     bsdmake \
-    clang-format \
+    ccache \
     cmake \
-    devil \
-    docbook \
+    docbook-xml \
     dos2unix \
     emscripten \
     ffmpeg \
+    fish \
     freeglut \
     freeimage \
+    generaluser-soundfont \
     git \
     glew \
     glm \
-    go \
+    gmake \
     gnuradio \
-    imagemagick \
-    include-what-you-use \
+    go \
+    inetutils \
     irssi \
     lcov \
     ledger \
-    libfreeimage \
+    libdevil \
     libpng \
     librsvg \
+    libsdl2 \
+    libsdl2_image \
     libtool \
-    llvm \
     lua \
-    make \
     meson \
-    molten-vk \
     mosh \
+    mpstats \
     ninja \
     pandoc \
     parallel \
-    perl \
+    perl5 \
     ruby \
-    sdl2 \
-    sdl2_image \
     subversion \
-    telnet \
     tmux \
     tree \
-    vlc \
     wget \
-    youtube-dl \
-    yt-dlp/taps/yt-dlp \
+    yt-dlp \
 
-# Add symlinks for llvm tools
-ln -s "$(brew --prefix llvm)/bin/clang-tidy" $(HOME)/.local/bin/clang-tidy
+# LLVM and Clang tools like clang-tidy, clang-format
+sudo port install clang-14
+sudo port select --set clang mp-clang-14
+
+    #include-what-you-use \
 
 brew install --cask \
     anki \
