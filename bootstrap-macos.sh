@@ -29,6 +29,7 @@ sudo port -N install \
     emscripten \
     ffmpeg \
     fish \
+    fldigi \
     freeglut \
     freeimage \
     generaluser-soundfont \
