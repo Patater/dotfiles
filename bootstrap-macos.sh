@@ -12,6 +12,7 @@ make
 sudo make install
 sudo port -N install \
     64tass \
+    CubicSDR \
     ImageMagick \
     MoltenVK \
     VLC \
