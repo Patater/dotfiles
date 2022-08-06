@@ -38,6 +38,9 @@ sudo port -N install \
     gmake \
     gnuradio \
     go \
+    gqrx \
+    gr-fosphor \
+    gr-osmosdr \
     inetutils \
     irssi \
     lcov \
