@@ -51,6 +51,7 @@ sudo port -N install \
     librsvg \
     libsdl2 \
     libsdl2_image \
+    libsdl2_ttf \
     libtool \
     lua \
     meson \
