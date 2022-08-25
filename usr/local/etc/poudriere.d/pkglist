@@ -82,6 +82,7 @@ graphics/drm-kmod
 graphics/gimp
 graphics/glfw
 graphics/glx-utils
+graphics/gpu-firmware-kmod
 graphics/grafx2
 graphics/imlib2
 graphics/libheif
