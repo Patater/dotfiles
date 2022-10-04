@@ -54,6 +54,7 @@ devel/ruby-gems
 devel/sdl20
 devel/srecord
 devel/subversion
+devel/tass64
 devel/valgrind
 editors/libreoffice
 editors/vim
