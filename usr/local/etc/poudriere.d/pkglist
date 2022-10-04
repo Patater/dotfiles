@@ -138,7 +138,6 @@ security/gnupg
 security/hashcat
 security/john
 security/nmap
-security/sudo
 security/py-certbot
 shells/fish
 sysutils/bastille
