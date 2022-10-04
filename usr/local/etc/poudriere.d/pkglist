@@ -1,6 +1,4 @@
 accessibility/kmag
-archivers/p7zip
-archivers/stuffit
 archivers/unrar
 astro/weather
 audio/audacity
@@ -9,7 +7,6 @@ audio/sdl2_mixer
 benchmarks/glmark2
 benchmarks/stress-ng
 benchmarks/wrk
-cad/geda
 cad/gtkwave
 cad/iverilog
 cad/kicad
@@ -65,7 +62,6 @@ emulators/dosbox
 emulators/linux-c7
 emulators/mgba
 emulators/mtools
-emulators/pcem
 emulators/qemu
 emulators/qemu-user-static
 emulators/snes9x-gtk
@@ -97,7 +93,6 @@ graphics/vulkan-validation-layers
 graphics/wings
 graphics/xournalpp
 irc/irssi
-java/openjdk14
 lang/clover
 lang/fasm
 lang/gcc
@@ -118,7 +113,6 @@ misc/e2fsprogs-libuuid
 misc/ktouch
 misc/unclutter
 multimedia/ffmpeg
-multimedia/libav
 multimedia/obs-studio
 multimedia/plexmediaserver
 multimedia/pwcview
@@ -137,7 +131,6 @@ net-p2p/qbittorrent
 print/cups
 print/gutenprint
 print/texinfo
-print/freetype
 print/freetype2
 security/gnupg
 security/hashcat
