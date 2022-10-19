@@ -41,6 +41,9 @@ service netif cloneup
 sysrc pf_enable=YES
 service pf start
 
+# Printing
+sysrc cupsd_enable=YES
+
 # samba
 pkg install samba412
 #pdbedit -a -u jaeden (enter password and stuff manually)
