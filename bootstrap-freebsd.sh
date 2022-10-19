@@ -32,6 +32,11 @@ ln -s $(CWD)/usr/local/etc/pkg/repos/amd64-12-2.conf /usr/local/etc/pkg/repos/am
 # Install all the packages
 xargs doas pkg install -fy < /usr/local/etc/poudriere.d/pkglist
 
+# Create bastille network
+sysrc cloned_interfaces+=lo1
+sysrc ifconfig_lo1_name="bastille0"
+service netif cloneup
+
 # samba
 pkg install samba412
 #pdbedit -a -u jaeden (enter password and stuff manually)
