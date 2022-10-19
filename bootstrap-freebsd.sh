@@ -37,6 +37,10 @@ sysrc cloned_interfaces+=lo1
 sysrc ifconfig_lo1_name="bastille0"
 service netif cloneup
 
+# Enable firewall
+sysrc pf_enable=YES
+service pf start
+
 # samba
 pkg install samba412
 #pdbedit -a -u jaeden (enter password and stuff manually)
