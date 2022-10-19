@@ -30,7 +30,7 @@ ln -s $(CWD)/usr/local/etc/pkg/repos/FreeBSD.conf /usr/local/etc/pkg/repos/FreeB
 ln -s $(CWD)/usr/local/etc/pkg/repos/amd64-12-2.conf /usr/local/etc/pkg/repos/amd64-12-2.conf
 
 # Install all the packages
-xargs sudo pkg install -fy < /usr/local/etc/poudriere.d/pkglist
+xargs doas pkg install -fy < /usr/local/etc/poudriere.d/pkglist
 
 # samba
 pkg install samba412
