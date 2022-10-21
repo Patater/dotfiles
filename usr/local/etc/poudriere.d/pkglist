@@ -76,6 +76,7 @@ games/phalanx
 games/scid
 games/stockfish
 graphics/ImageMagick7
+graphics/darktable
 graphics/drm-kmod
 graphics/gimp
 graphics/glfw
