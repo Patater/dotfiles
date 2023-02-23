@@ -1,0 +1,2 @@
+.include /etc/pulse/default.pa
+load-module module-null-sink sink_name=VirtualSink sink_properties=device.description=VirtualSink
