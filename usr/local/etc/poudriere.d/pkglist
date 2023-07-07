@@ -45,6 +45,7 @@ devel/libtool
 devel/m4
 devel/mercurial
 devel/ncurses
+devel/p5-Test-PerlTidy
 devel/py-game
 devel/py-pip
 devel/py-tox
