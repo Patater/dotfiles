@@ -84,6 +84,9 @@ autocmd BufNewFile,BufRead *.vert,*.tesc,*.tese,*.geom,*.frag,*.comp set filetyp
 autocmd BufNewFile,BufRead *.glsl,*.glvs,*.glfs,*.vs,*.fs set ft=glsl
 autocmd BufNewFile,BufRead *.rgen,*.rmiss,*.rchit,*.rahit,*.rint,*.rcall set filetype=glsl
 
+" Perl type discovery
+autocmd BufNewFile,BufRead *.pl,*.pm,*.t set filetype=perl
+
 " Tabs will be listed
 set list listchars=tab:»·
 
