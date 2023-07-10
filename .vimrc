@@ -87,6 +87,9 @@ autocmd BufNewFile,BufRead *.rgen,*.rmiss,*.rchit,*.rahit,*.rint,*.rcall set fil
 " Perl type discovery
 autocmd BufNewFile,BufRead *.pl,*.pm,*.t set filetype=perl
 
+" nand2tetris
+autocmd BufNewFile,BufRead *.hdl set ft=hdl
+
 " Tabs will be listed
 set list listchars=tab:»·
 
