@@ -137,6 +137,7 @@ net/wireguard
 net-p2p/qbittorrent
 print/cups
 print/gutenprint
+print/tex-basic-engines
 print/texinfo
 print/freetype2
 security/gnupg
