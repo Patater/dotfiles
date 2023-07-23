@@ -59,6 +59,7 @@ devel/srecord
 devel/subversion
 devel/tass64
 devel/valgrind
+devel/xa65
 editors/libreoffice
 editors/vim
 emulators/bochs
