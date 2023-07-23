@@ -13,6 +13,7 @@ cad/kicad
 comms/gqrx
 comms/hidapi
 comms/trustedqsl
+converters/dos2unix
 databases/py-sqlite3
 databases/sqlite3
 deskutils/akregator
