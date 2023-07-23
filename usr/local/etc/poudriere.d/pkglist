@@ -127,6 +127,7 @@ multimedia/v4l-utils
 multimedia/vlc
 multimedia/webcamd
 net-mgmt/collectd5
+net-p2p/qbittorrent
 net/freerdp
 net/megatools
 net/mosh
@@ -134,12 +135,11 @@ net/rclone
 net/rsync
 net/syncthing
 net/wireguard
-net-p2p/qbittorrent
 print/cups
+print/freetype2
 print/gutenprint
 print/tex-basic-engines
 print/texinfo
-print/freetype2
 security/gnupg
 security/hashcat
 security/john
