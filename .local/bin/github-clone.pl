@@ -5,7 +5,7 @@ use warnings;
 
 use URI;
 
-my $DEST="/home/jaeden/Code";
+my $DEST="/code";
 my $repoURL = $ARGV[0];
 
 if (!defined $repoURL) {
