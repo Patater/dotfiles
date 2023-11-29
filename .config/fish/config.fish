@@ -23,6 +23,8 @@ end
 set -Ux CTEST_PARALLEL_LEVEL 56
 set -Ux CTEST_OUTPUT_ON_FAILURE 1
 
+set LD_LIBRARY_PATH /usr/local/cuda-11.8/lib64 $LD_LIBRARY_PATH
+set PATH /usr/local/cuda-11.8/bin $PATH
 set PATH $HOME/.local/bin $PATH
 
 alias ls="ls --color"
