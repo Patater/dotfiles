@@ -26,6 +26,7 @@ sudo apt install -y \
     nodejs \
     npm \
     openssh-server \
+    perl-doc \
     python3-pip \
     python3-virtualenv \
     qbittorrent \
