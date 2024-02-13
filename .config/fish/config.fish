@@ -19,6 +19,9 @@ if status is-interactive
   set BROWSER firefox
 end
 
+# NPM
+set PATH $HOME/node_modules/.bin $PATH
+
 # CMake
 set -Ux CTEST_PARALLEL_LEVEL 56
 set -Ux CTEST_OUTPUT_ON_FAILURE 1
