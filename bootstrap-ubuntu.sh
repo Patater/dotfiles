@@ -18,6 +18,7 @@ sudo apt install -y \
     iverilog \
     k3b \
     k4dirstat \
+    kitty \
     libsdl2-dev \
     mesa-utils \
     mosh \
