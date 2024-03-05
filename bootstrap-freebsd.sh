@@ -64,3 +64,7 @@ sysrc -f /etc/sysctl.conf net.link.up_on_open=1
 sysctl net.link.tap.up_on_open=1
 sysrc kldlist+=vmm
 sysrc kldlist+=nmdm
+
+# Local Unbound DNS
+service local_unbound setup
+service local_unbound restart

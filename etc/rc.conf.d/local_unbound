@@ -1,0 +1,3 @@
+local_unbound_enable="YES"
+local_unbound_tls="YES"
+local_unbound_forwarders="1.1.1.1@853#cloudflare-dns.com 1.0.0.1@853#cloudflare-dns.com"
