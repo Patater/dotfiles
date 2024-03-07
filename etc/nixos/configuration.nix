@@ -64,6 +64,7 @@
       gimp
       git
       gnum4
+      gnumake
       golint
       gqrx
       gtkwave
