@@ -98,6 +98,11 @@
   environment.systemPackages = with pkgs; [
     vim
     wget
+
+    # Globally install perl modules
+    (perl.withPackages(ps: [
+      ps.URI
+    ]))
   ];
 
   services.openssh.enable = true;
