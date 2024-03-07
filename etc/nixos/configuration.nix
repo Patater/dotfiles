@@ -93,6 +93,16 @@
       vlc
       weather
       wsjtx
+
+      # Install GNU Radio, including extra GNU Radio and Python packages
+      (gnuradio.override {
+        extraPackages = with gnuradioPackages; [
+          osmosdr
+        ];
+        extraPythonPackages = with gnuradio.python.pkgs; [
+          numpy
+        ];
+      })
     ];
   };
 
