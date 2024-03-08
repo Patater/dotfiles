@@ -38,6 +38,7 @@
     shell = pkgs.fish;
     extraGroups = [ "wheel" ];
     packages = with pkgs; [
+      SDL2
       aria
       astyle
       audacity
