@@ -69,6 +69,7 @@
       gqrx
       gtkwave
       include-what-you-use
+      inetutils
       irssi
       jq
       k4dirstat
