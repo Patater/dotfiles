@@ -80,6 +80,7 @@
       libreoffice
       mesa-demos
       mgba
+      ninja
       nmap
       octaveFull
       pstree
