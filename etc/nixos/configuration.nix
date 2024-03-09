@@ -60,6 +60,7 @@
       ffmpeg
       firefox
       fish
+      fldigi
       gcc
       gdb
       gimp
