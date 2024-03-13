@@ -33,6 +33,8 @@ URxvt.keysym.C-Down:   perl:font-size:decrease
 URxvt.keysym.C-S-Up:   perl:font-size:incglobal
 URxvt.keysym.C-S-Down: perl:font-size:decglobal
 
+URxvt*cutchars: "\\`\"'&()*,;<=>?@[]^{|│}.#%+!/:-"
+
 !BLK Cursor
 #define _color0        #000d18
 #define _color8        #000d18
