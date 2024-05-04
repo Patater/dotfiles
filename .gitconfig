@@ -36,6 +36,8 @@
 	insteadOf = https://github.com/
 [url "ssh://git@github.com/"]
 	insteadOf = git://github.com/
+[url "ssh://git@gitlab.com/"]
+	insteadOf = https://gitlab.com/
 [color "diff-highlight"]
 	oldNormal = red bold
 	oldHighlight = red bold 52
