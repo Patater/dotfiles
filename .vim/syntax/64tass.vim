@@ -8,7 +8,7 @@
 " let tass64_case_sensitive = 1 " Case sensitive or not
 " let tass64_6502i = 1          " Use illegal opcodes
 " let tass64_65dtv02 = 1        " Use dtv opcodes
-" let tass64_65c02 = 1          " Use 65C02 opcodes
+let tass64_65c02 = 1          " Use 65C02 opcodes
 " let tass64_r65c02 = 1         " Use Rockwell 65C02 opcodes
 " let tass64_w65c02 = 1         " Use WDC 65C02 opcodes
 " let tass64_w65816 = 1         " Use WDC 65816 opcodes
