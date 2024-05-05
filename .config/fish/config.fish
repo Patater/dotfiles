@@ -28,6 +28,9 @@ set -Ux CTEST_OUTPUT_ON_FAILURE 1
 
 set LD_LIBRARY_PATH /usr/local/cuda-11.8/lib64 $LD_LIBRARY_PATH
 set PATH /usr/local/cuda-11.8/bin $PATH
+
+set PATH $HOME/.gem/ruby/2.7/bin $PATH
+set PATH $HOME/.gem/ruby/3.0/bin $PATH
 set PATH $HOME/.local/bin $PATH
 set PATH $HOME/.cargo/bin $PATH
 
