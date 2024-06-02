@@ -118,6 +118,7 @@ math/mprime
 math/octave
 misc/e2fsprogs-libuuid
 misc/ktouch
+misc/terminfo-db
 misc/unclutter
 multimedia/ffmpeg
 multimedia/obs-studio
