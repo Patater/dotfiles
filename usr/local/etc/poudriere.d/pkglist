@@ -22,7 +22,7 @@ devel/apache-ant
 devel/astyle
 devel/autoconf
 devel/automake
-devel/bazel
+devel/bazel5
 devel/binaryen
 devel/bison
 devel/ccache
