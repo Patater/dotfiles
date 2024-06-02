@@ -122,7 +122,6 @@ misc/terminfo-db
 misc/unclutter
 multimedia/ffmpeg
 multimedia/obs-studio
-multimedia/plexmediaserver
 multimedia/pwcview
 multimedia/v4l-utils
 multimedia/vlc
