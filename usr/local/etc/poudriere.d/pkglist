@@ -193,6 +193,7 @@ x11-fonts/noto
 x11-fonts/oldschool-pc-fonts
 x11-fonts/twemoji-color-font-ttf
 x11-fonts/xfontsel
+x11-servers/xephyr
 x11-themes/Kvantum
 x11-themes/gtk-engines2
 x11-themes/icons-tango
