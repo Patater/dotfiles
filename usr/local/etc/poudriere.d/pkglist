@@ -49,6 +49,7 @@ devel/m4
 devel/mercurial
 devel/meson
 devel/ncurses
+devel/ninja
 devel/p5-Test-PerlTidy
 devel/py-game
 devel/py-pip
