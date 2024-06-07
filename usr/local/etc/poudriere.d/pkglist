@@ -47,6 +47,7 @@ devel/lcov
 devel/libtool
 devel/m4
 devel/mercurial
+devel/meson
 devel/ncurses
 devel/p5-Test-PerlTidy
 devel/py-game
