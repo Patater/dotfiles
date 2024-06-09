@@ -211,5 +211,6 @@ x11/nvidia-driver
 x11/nvidia-settings
 x11/nvidia-xconfig
 x11/rxvt-unicode
+x11/xeyes
 x11/xinit
 x11/xorg
