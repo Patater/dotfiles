@@ -103,6 +103,11 @@ augroup meson
     au FileType meson setlocal et sts=2 sw=2 ts=2
 augroup END
 
+augroup yaml
+    au!
+    au FileType yaml setlocal et sts=2 sw=2 ts=2
+augroup END
+
 augroup golang
     au!
     au FileType go setlocal noet sts=0 ts=8 sw=8
