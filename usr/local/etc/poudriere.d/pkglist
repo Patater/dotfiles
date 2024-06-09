@@ -36,6 +36,7 @@ devel/emscripten
 devel/gdb
 devel/git
 devel/git-svn
+devel/glog
 devel/gmake
 devel/golint
 devel/googletest
