@@ -98,6 +98,11 @@ augroup makefile
     au FileType make,automake setlocal noet sts=0 ts=8 sw=8
 augroup END
 
+augroup meson
+    au!
+    au FileType meson setlocal et sts=2 sw=2 ts=2
+augroup END
+
 augroup golang
     au!
     au FileType go setlocal noet sts=0 ts=8 sw=8
