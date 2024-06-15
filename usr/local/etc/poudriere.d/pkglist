@@ -178,6 +178,7 @@ sysutils/usbutils
 sysutils/vagrant
 textproc/jq
 textproc/meld
+textproc/py-sphinx_rtd_theme
 textproc/rubygem-asciidoctor
 www/aria2
 www/chromium
