@@ -32,6 +32,7 @@ devel/clinfo
 devel/cmake
 devel/cppcheck
 devel/dbus
+devel/doxygen
 devel/emscripten
 devel/gdb
 devel/git
