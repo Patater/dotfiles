@@ -122,6 +122,7 @@ math/mpfr
 math/mprime
 math/octave
 math/openblas
+math/openblas64
 misc/e2fsprogs-libuuid
 misc/ktouch
 misc/terminfo-db
