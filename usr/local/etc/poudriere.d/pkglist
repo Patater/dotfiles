@@ -180,6 +180,7 @@ sysutils/tmux
 sysutils/tree
 sysutils/usbutils
 sysutils/vagrant
+textproc/hs-pandoc
 textproc/jq
 textproc/mdbook
 textproc/meld
