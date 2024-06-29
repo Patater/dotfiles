@@ -146,6 +146,8 @@ print/cups
 print/freetype2
 print/gutenprint
 print/tex-basic-engines
+print/tex-dvipsk
+print/tex-formats
 print/texinfo
 print/texlive-texmf
 security/gnupg
