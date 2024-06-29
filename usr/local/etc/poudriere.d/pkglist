@@ -181,6 +181,7 @@ sysutils/tree
 sysutils/usbutils
 sysutils/vagrant
 textproc/jq
+textproc/mdbook
 textproc/meld
 textproc/py-sphinx_rtd_theme
 textproc/rubygem-asciidoctor
