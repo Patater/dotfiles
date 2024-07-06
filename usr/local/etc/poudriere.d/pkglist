@@ -53,6 +53,7 @@ devel/meson
 devel/ncurses
 devel/ninja
 devel/p5-Test-PerlTidy
+devel/patch
 devel/py-breathe
 devel/py-game
 devel/py-pip
