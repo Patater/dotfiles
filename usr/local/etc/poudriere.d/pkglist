@@ -94,6 +94,7 @@ graphics/glx-utils
 graphics/gpu-firmware-kmod
 graphics/grafx2
 graphics/imlib2
+graphics/inkscape
 graphics/libheif
 graphics/mesa-demos
 graphics/py-PyOpenGL
