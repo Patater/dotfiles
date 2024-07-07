@@ -59,6 +59,7 @@ devel/py-game
 devel/py-pip
 devel/py-tox
 devel/qmake
+devel/qt5-buildtools
 devel/qt5-make
 devel/radare2
 devel/ruby-gems
