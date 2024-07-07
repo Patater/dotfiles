@@ -19,6 +19,10 @@ if status is-interactive
   set BROWSER firefox
 end
 
+# devkitPro
+set -Ux DEVKITPRO /opt/devkitpro
+set -Ux DEVKITARM /opt/devkitpro/devkitARM
+
 # NPM
 set PATH $HOME/node_modules/.bin $PATH
 
