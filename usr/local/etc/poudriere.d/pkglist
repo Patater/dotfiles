@@ -112,6 +112,7 @@ graphics/wings
 graphics/xournalpp
 irc/irssi
 lang/clover
+lang/elixir
 lang/fasm
 lang/gcc
 lang/go
