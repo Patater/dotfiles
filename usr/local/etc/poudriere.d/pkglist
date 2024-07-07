@@ -88,6 +88,7 @@ games/stockfish
 graphics/ImageMagick7
 graphics/darktable
 graphics/drm-kmod
+graphics/freeimage
 graphics/gimp
 graphics/glfw
 graphics/glx-utils
