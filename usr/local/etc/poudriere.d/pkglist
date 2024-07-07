@@ -45,6 +45,7 @@ devel/gradle
 devel/hs-ShellCheck
 devel/include-what-you-use
 devel/isl
+devel/kf5-extra-cmake-modules
 devel/lcov
 devel/libtool
 devel/m4
