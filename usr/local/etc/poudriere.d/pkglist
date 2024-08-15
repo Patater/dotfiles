@@ -10,6 +10,7 @@ benchmarks/wrk
 cad/gtkwave
 cad/iverilog
 cad/kicad
+cad/verilator
 comms/gqrx
 comms/hidapi
 comms/trustedqsl
