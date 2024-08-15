@@ -60,6 +60,7 @@ devel/patch
 devel/py-breathe
 devel/py-game
 devel/py-pip
+devel/py-pytest
 devel/py-tox
 devel/qmake
 devel/qt5-buildtools
