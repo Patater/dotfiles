@@ -10,6 +10,7 @@ benchmarks/wrk
 cad/gtkwave
 cad/iverilog
 cad/kicad
+cad/py-cocotb
 cad/verilator
 comms/gqrx
 comms/hidapi
