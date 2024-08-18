@@ -135,6 +135,7 @@ math/mprime
 math/octave
 math/openblas
 math/openblas64
+math/p5-Math-Round
 misc/e2fsprogs-libuuid
 misc/ktouch
 misc/terminfo-db
