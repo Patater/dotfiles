@@ -1,0 +1,3 @@
+#!/bin/sh
+
+scrot -s "$(date -Is)".png
