@@ -5,7 +5,7 @@ use warnings;
 
 use URI;
 
-my $DEST="/code";
+my $DEST = "/code";
 my $repoURL = $ARGV[0];
 
 if (!defined $repoURL) {
@@ -41,7 +41,7 @@ if (defined $url->query()) {
 # Remove .git from path if it exists, for a clean directory name
 (my $folder = $url->path) =~ s/\.[^.]+$//;
 
-my $directory = $DEST. '/' . $url->host . $folder;
+my $directory = $DEST . '/' . $url->host . $folder;
 
 print "git clone --recursive $url $directory\n";
 
