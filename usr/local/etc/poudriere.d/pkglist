@@ -11,6 +11,7 @@ cad/gtkwave
 cad/iverilog
 cad/kicad
 cad/py-cocotb
+cad/qflow
 cad/verilator
 cad/yosys
 comms/dfu-util
