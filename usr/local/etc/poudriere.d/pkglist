@@ -55,6 +55,7 @@ devel/m4
 devel/mercurial
 devel/meson
 devel/ncurses
+devel/nextpnr
 devel/ninja
 devel/p5-Test-Deep
 devel/p5-Test-PerlTidy
