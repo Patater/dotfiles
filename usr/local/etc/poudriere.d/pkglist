@@ -58,6 +58,7 @@ devel/meson
 devel/ncurses
 devel/nextpnr
 devel/ninja
+devel/openocd
 devel/p5-Test-Deep
 devel/p5-Test-PerlTidy
 devel/p5-Text-CSV
