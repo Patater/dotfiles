@@ -47,6 +47,7 @@ devel/golint
 devel/googletest
 devel/gradle
 devel/hs-ShellCheck
+devel/icestorm
 devel/include-what-you-use
 devel/isl
 devel/kf5-extra-cmake-modules
