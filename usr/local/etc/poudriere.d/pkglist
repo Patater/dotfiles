@@ -12,6 +12,7 @@ cad/iverilog
 cad/kicad
 cad/py-cocotb
 cad/verilator
+comms/dfu-util
 comms/gqrx
 comms/hidapi
 comms/trustedqsl
