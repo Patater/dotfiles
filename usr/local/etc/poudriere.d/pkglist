@@ -106,6 +106,7 @@ graphics/drm-kmod
 graphics/freeimage
 graphics/gimp
 graphics/glfw
+graphics/glm
 graphics/glx-utils
 graphics/gpu-firmware-kmod
 graphics/grafx2
