@@ -33,6 +33,7 @@ devel/bazel5
 devel/binaryen
 devel/bison
 devel/ccache
+devel/check
 devel/checkbashisms
 devel/clinfo
 devel/cmake
