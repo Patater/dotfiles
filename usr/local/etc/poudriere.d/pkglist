@@ -75,6 +75,7 @@ devel/py-tox
 devel/qmake
 devel/qt5-buildtools
 devel/qt5-make
+devel/qt6
 devel/qt6-tools
 devel/radare2
 devel/ruby-gems
