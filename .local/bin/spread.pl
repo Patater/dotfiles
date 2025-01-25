@@ -15,6 +15,10 @@ open my $fh, '<', $input_file or die "Cannot open file '$input_file': $!";
 while (my $url = <$fh>) {
     chomp $url;
 
+    # Skip blank lines and comments
+    next if $url =~ /^\s*$/;
+    next if $url =~ /^\s*#/;
+
     # Extract the name using the provided regex pattern.
     my ($name) = $url =~ /$regex_pattern/;
 
