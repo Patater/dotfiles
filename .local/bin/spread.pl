@@ -19,20 +19,23 @@ while (my $url = <$fh>) {
     my ($name) = $url =~ /$regex_pattern/;
 
     if ($name) {
+        # Create directory if it doesn't exist
+        if (-d $name) {
+            print "Directory '$name' already exists\n";
+        } else {
+            make_path($name) or die "Failed to create directory '$name': $!";
 
-        # Create the directory.
-        make_path($name) or die "Failed to create directory '$name': $!";
+            # Create a new file in the directory.
+            my $output_file = "$name/batch.txt";
+            open my $out_fh, '>', $output_file
+              or die "Cannot create file '$output_file': $!";
 
-        # Create a new file in the directory.
-        my $output_file = "$name/batch.txt";
-        open my $out_fh, '>', $output_file
-          or die "Cannot create file '$output_file': $!";
+            # Write the full URL to the file.
+            print $out_fh "$url\n";
+            close $out_fh;
 
-        # Write the full URL to the file.
-        print $out_fh "$url\n";
-        close $out_fh;
-
-        print "Created directory '$name' and saved URL to $output_file\n";
+            print "Created directory '$name' and saved URL to $output_file\n";
+        }
     }
     else {
         warn "Could not extract name from URL: $url\n";
