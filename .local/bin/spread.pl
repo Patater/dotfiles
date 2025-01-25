@@ -5,7 +5,7 @@ use warnings;
 use File::Path qw(make_path);
 
 # Check if the input file is provided.
-die "Usage: $1 <input_file> <regex_pattern>\n" unless @ARGV == 2;
+die "Usage: $0 <input_file> <regex_pattern>\n" unless @ARGV == 2;
 
 my ($input_file, $regex_pattern) = @ARGV;
 
