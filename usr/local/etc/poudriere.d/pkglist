@@ -159,6 +159,7 @@ multimedia/v4l-utils
 multimedia/vlc
 multimedia/webcamd
 net-mgmt/collectd5
+net-p2p/bitcoin
 net-p2p/qbittorrent
 net/freerdp
 net/megatools
