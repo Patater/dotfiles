@@ -4,6 +4,7 @@ astro/weather
 audio/audacity
 audio/cyanrip
 audio/elisa
+audio/libsndfile
 audio/sdl2_mixer
 benchmarks/glmark2
 benchmarks/stress-ng
