@@ -177,6 +177,7 @@ print/tex-dvipsk
 print/tex-formats
 print/texinfo
 print/texlive-texmf
+science/py-scipy
 security/gnupg
 security/hashcat
 security/john
