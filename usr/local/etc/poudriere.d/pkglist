@@ -148,6 +148,7 @@ math/octave
 math/openblas
 math/openblas64
 math/p5-Math-Round
+math/py-matplotlib
 misc/e2fsprogs-libuuid
 misc/ktouch
 misc/terminfo-db
