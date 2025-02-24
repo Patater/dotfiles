@@ -80,6 +80,7 @@ devel/qt6
 devel/qt6-tools
 devel/radare2
 devel/ruby-gems
+devel/rubygem-rubocop
 devel/sdl20
 devel/srecord
 devel/subversion
