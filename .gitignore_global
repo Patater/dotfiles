@@ -46,6 +46,11 @@ Thumbs.db
 ########
 Gemfile.lock
 
+# Python #
+##########
+*.pyc
+.venv/
+
 # Folder exceptions #
 #####################
 !*.com
