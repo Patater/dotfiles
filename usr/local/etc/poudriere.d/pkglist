@@ -68,6 +68,7 @@ devel/p5-Test-Deep
 devel/p5-Test-PerlTidy
 devel/p5-Text-CSV
 devel/patch
+devel/py-awscli
 devel/py-breathe
 devel/py-game
 devel/py-pip
