@@ -153,6 +153,7 @@ math/p5-Math-Round
 math/py-matplotlib
 misc/e2fsprogs-libuuid
 misc/ktouch
+misc/py-polars
 misc/terminfo-db
 misc/unclutter
 multimedia/ffmpeg
