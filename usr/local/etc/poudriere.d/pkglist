@@ -94,6 +94,7 @@ editors/vim
 emulators/bochs
 emulators/cingb
 emulators/dosbox
+emulators/libc6-shim
 emulators/linux_base-rl9
 emulators/mgba
 emulators/mtools
