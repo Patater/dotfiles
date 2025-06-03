@@ -58,6 +58,7 @@ devel/isl
 devel/kf5-extra-cmake-modules
 devel/lcov
 devel/libtool
+devel/linux-rl9-devtools
 devel/m4
 devel/mercurial
 devel/meson
