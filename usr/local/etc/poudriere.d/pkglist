@@ -250,6 +250,7 @@ x11-wm/xfce4
 x11/kde5
 x11/kitty
 x11/libwacom
+x11/linux-nvidia-libs
 x11/nvidia-driver
 x11/nvidia-settings
 x11/nvidia-xconfig
