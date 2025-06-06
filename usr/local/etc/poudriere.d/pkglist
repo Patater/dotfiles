@@ -161,6 +161,7 @@ misc/terminfo-db
 misc/unclutter
 multimedia/ffmpeg
 multimedia/obs-studio
+multimedia/pipewire
 multimedia/pwcview
 multimedia/qt6-multimedia
 multimedia/v4l-utils
