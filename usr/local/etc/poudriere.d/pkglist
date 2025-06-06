@@ -6,6 +6,7 @@ audio/audacity
 audio/cyanrip
 audio/elisa
 audio/libsndfile
+audio/pipewire-spa-oss
 audio/sdl2_mixer
 benchmarks/glmark2
 benchmarks/stress-ng
