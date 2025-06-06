@@ -167,6 +167,7 @@ multimedia/qt6-multimedia
 multimedia/v4l-utils
 multimedia/vlc
 multimedia/webcamd
+multimedia/wireplumber
 net-mgmt/collectd5
 net-p2p/bitcoin
 net-p2p/qbittorrent
